@@ -103,7 +103,7 @@ const Contact = () => {
                 className="social_links d-flex align-items-center"
                 data-aos="zoom-in"
               >
-                                <li>
+                <li>
                   <Link
                     className="shadow_box"
                     to="https://www.devdisplay.org/profile/codeaashu"
@@ -111,10 +111,10 @@ const Contact = () => {
                   >
                     <img
                       src="../aashuu/DevDisplay.png"
-                      alt="Instagram"
+                      alt="DevDisplay"
                       width="32px"
                       height="32px"
-                      className="instagram-icon"
+                      className="DevDisplay-icon"
                     />
                   </Link>
                 </li>

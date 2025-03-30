@@ -560,13 +560,17 @@ a:hover {
   font-style: normal;
 }
 
-.instagram-icon {
+.DevDisplay-icon {
   filter: brightness(0) invert(1);
   transition: filter 0.3s ease;
 }
 
-.instagram-icon:hover {
+.DevDisplay-icon:hover {
   filter: brightness(0);
+}
+
+.inner_profile_icons a:hover .DevDisplay-icon {
+  filter: brightness(0); /* Turns the icon black */
 }
 
 .custom-text {

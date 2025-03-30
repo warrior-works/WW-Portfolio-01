@@ -22,7 +22,7 @@ const MoreAboutMe = () => {
                     About | {process.env.REACT_APP_APP_NAME}
                 </title>
             </Helmet>
-            <Navbar/>
+            <Navbar />
             <section className="about_area">
                 <div className="container">
                     <div className='d-flex about_me_wrap align-items-end mb-30'>
@@ -40,8 +40,8 @@ const MoreAboutMe = () => {
                             </h1>
                             <div className='about_details_inner shadow_box'>
                                 <img src={StarIcon} alt="bg" className='star_icon' />
-                                <h1>Lorem, ipsum.</h1>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis itaque repudiandae minima quas odit et eligendi recusandae temporibus veritatis exercitationem.</p>
+                                <h1>Ashutosh Kumar</h1>
+                                <p>Creative Full Stack Web Developer & Designer specializing in crafting captivating websites & apps. With a focus on user-centric design, creative development, and effective collaboration, I can elevate brand presence with my design expertise. Till Now I have built 50+ web apps. Most importantly, I'm a reliable designer you can rely on for all your design needs. Currently Building DevDisplay - Paradise For Developers!</p>
                             </div>
                         </div>
                     </div>
@@ -52,19 +52,19 @@ const MoreAboutMe = () => {
                                 <h3>EXPERIENCE</h3>
                                 <ul>
                                     <li>
-                                        <p className="date">DEC 2020 - JULY 2021</p>
-                                        <h2>UI UX Designer</h2>
-                                        <p className="type">Hevin Technoweb</p>
+                                        <p className="date">JANUARY 2024 - MAY 2024</p>
+                                        <h2>UI UX Designer & Web Developer</h2>
+                                        <p className="type">Advish Technology</p>
                                     </li>
                                     <li>
-                                        <p className="date">AUG 2021 - MAY 2022</p>
-                                        <h2>Web Designer</h2>
-                                        <p className="type">HH Pramukh Tech</p>
+                                        <p className="date">JUNE 2024 - MARCH 2025</p>
+                                        <h2>Web Developer & Designer</h2>
+                                        <p className="type">LPS Brands</p>
                                     </li>
                                     <li>
-                                        <p className="date">JUN 2022 - Running</p>
-                                        <h2>Front-End Developer</h2>
-                                        <p className="type">UniQual ITech</p>
+                                        <p className="date">MARCH 2025 - Running</p>
+                                        <h2>Product Engineer</h2>
+                                        <p className="type">LPS Brands</p>
                                     </li>
                                 </ul>
                             </div>
@@ -75,19 +75,19 @@ const MoreAboutMe = () => {
                                 <h3>EDUCATION</h3>
                                 <ul>
                                     <li>
-                                        <p className="date">2015 - 2016</p>
-                                        <h2>GSEB - Gujarat Secondary Education Board.</h2>
-                                        <p className="type">Samarpan Techno school</p>
+                                        <p className="date">2020</p>
+                                        <h2>MATRICULATION</h2>
+                                        <p className="type">RSCDS VIDYA MANDIR</p>
                                     </li>
                                     <li>
-                                        <p className="date">2017 - 2018</p>
-                                        <h2>HSEB - Higher Secondary Education Board.</h2>
-                                        <p className="type">Samarpan Techno school</p>
+                                        <p className="date">2020 - 2022</p>
+                                        <h2>INTERMEDIATE - SCIENCE</h2>
+                                        <p className="type">+2 HIGH SCHOOL - BSEB</p>
                                     </li>
                                     <li>
-                                        <p className="date">2018 - 2021</p>
-                                        <h2>Bachelor of Commerce</h2>
-                                        <p className="type">R. V. Patel College of Commerce</p>
+                                        <p className="date">2022 - 2025</p>
+                                        <h2>Bachelor of Computer Applications</h2>
+                                        <p className="type">Aryabhatta Knowledge University</p>
                                     </li>
                                 </ul>
                             </div>
@@ -98,11 +98,11 @@ const MoreAboutMe = () => {
                             <div className="info_box shadow_box">
                                 <img src={textureImg} alt="bg" className='bg_img' />
                                 <div className='inner_profile_icons inner_profile_icons_2 shadow_box'>
-                                    <Link to="https://www.linkedin.com/in/pradip-ladva-539b86219/" target='_blank'>
+                                    <Link to="https://www.linkedin.com/in/ashutoshkumaraashu/" target='_blank'>
                                         <svg width="16px" height="16px" strokeWidth="1.6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#FFFFFF"><path d="M21 8v8a5 5 0 01-5 5H8a5 5 0 01-5-5V8a5 5 0 015-5h8a5 5 0 015 5zM7 17v-7" stroke="#FFFFFF" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"></path><path d="M11 17v-3.25M11 10v3.75m0 0c0-3.75 6-3.75 6 0V17M7 7.01l.01-.011" stroke="#FFFFFF" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"></path></svg>
                                     </Link>
-                                    <Link to="https://www.instagram.com/pradip_ladva_official/" target='_blank'>
-                                        <svg width="16px" height="16px" strokeWidth="1.6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#FFFFFF"><path d="M12 16a4 4 0 100-8 4 4 0 000 8z" stroke="#FFFFFF" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"></path><path d="M3 16V8a5 5 0 015-5h8a5 5 0 015 5v8a5 5 0 01-5 5H8a5 5 0 01-5-5z" stroke="#FFFFFF" strokeWidth="1.6"></path><path d="M17.5 6.51l.01-.011" stroke="#FFFFFF" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"></path></svg>
+                                    <Link to="https://github.com/codeaashu" target="_blank">
+                                        <svg width="16px" height="16px" strokeWidth="1.6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#FFFFFF"><path d="M16 22.027v-2.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7a5.44 5.44 0 00-1.5-3.75 5.07 5.07 0 00-.09-3.77s-1.18-.35-3.91 1.48a13.38 13.38 0 00-7 0c-2.73-1.83-3.91-1.48-3.91-1.48A5.07 5.07 0 005 5.797a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7a3.37 3.37 0 00-.94 2.58v2.87M9 20.027c-3 .973-5.5 0-7-3" stroke="#FFFFFF" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"></path></svg>
                                     </Link>
                                 </div>
                                 <div className="d-flex align-items-center justify-content-between">
@@ -125,7 +125,7 @@ const MoreAboutMe = () => {
                     </div>
                 </div>
             </section>
-            <Footer/>
+            <Footer />
         </>
     )
 }
