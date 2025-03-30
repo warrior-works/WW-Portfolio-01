@@ -97,14 +97,14 @@ const Home = () => {
                     </p>
                   </div>
                   <div className="client_item">
-                    <h1>+07</h1>
+                    <h1>30+</h1>
                     <p>
                       CLIENTS <br />
                       WORLDWIDE
                     </p>
                   </div>
                   <div className="client_item">
-                    <h1>+15</h1>
+                    <h1>+90</h1>
                     <p>
                       TOTAL <br />
                       PROJECTS
