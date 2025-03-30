@@ -116,7 +116,7 @@ const Credentials = () => {
                 I'm a dedicated last year BCA student at Aryabhatta Knowledge University. Fueled by a passion for becoming a Software Developer, I'm actively learning new technologies, computer science fundamentals, and programming languages. I'm eager to leverage my strong programming skills, proven problem-solving abilities, and teamwork experience in a challenging and dynamic environment to tackle real-world problems. But, Mostly, I focus on Web design - Frontend Development because I give more priority to my creativity or interest and building websites that captivate my target audience and get clients.
                 </p>
                 <p>
-                Specialization in Creative Full Stack Web Development & Designing pro in crafting captivating websites & apps. With a focus on user-centric design, creative development, and effective collaboration, I can elevate brand presence with my design expertise. Till Now I have built 50+ web apps. Most importantly, I'm a reliable designer you can rely on for all your design needs. Currently Building DevDisplay - Paradise For Developers!
+                Specialization in Creative Full Stack Web Development & Designing. Pro in crafting captivating websites & apps. With a focus on user-centric design, creative development, and effective collaboration, I can elevate brand presence with my design expertise. Till Now I have built 50+ web apps. Most importantly, I'm a reliable designer you can rely on for all your design needs. Currently Building DevDisplay - Paradise For Developers!
                 </p>
               </div>
               <div className="credential_edc_exp credential_experience">

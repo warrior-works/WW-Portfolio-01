@@ -35,7 +35,7 @@ const MoreAboutMe = () => {
                         <div className="about_details" data-aos="zoom-in">
                             <h1 className='section_heading' data-aos="fade-up">
                                 <img src={Star} alt="star" />
-                                SELF-SUMMARY
+                                SELF SUMMARY
                                 <img src={Star} alt="star" />
                             </h1>
                             <div className='about_details_inner shadow_box'>
