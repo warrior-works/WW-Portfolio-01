@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../resources/images/logo.svg";
+import logo from "../aashuu/aashuuicon.png";
 import { Link, NavLink } from "react-router-dom";
 import "../styles/Footer.css";
 
@@ -9,7 +9,7 @@ const Footer = (props) => {
       <div className="container">
         <div className="row justify-content-center">
           <Link to="/" className="footer_logo">
-            {/* <h3>Pradip.</h3> */}
+            {/* <h3>aashuu.</h3> */}
             <img src={logo} alt="" />
           </Link>
           <ul className="footer_menu">
@@ -27,7 +27,7 @@ const Footer = (props) => {
             </li>
           </ul>
           <p className="copyright">
-            &copy; {new Date().getFullYear()} <span>Pradip Ladva</span> All
+            &copy; {new Date().getFullYear()} <span>aashuu</span> All
             rights reserved.
           </p>
         </div>

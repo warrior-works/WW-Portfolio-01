@@ -71,7 +71,7 @@ const Contact = () => {
                   </div>
                   <div className="right">
                     <span>MAIL us</span>
-                    <Link to="mailto:Lorem, ipsum.">Lorem, ipsum.</Link>
+                    <Link to="mailto:hellow.ashutosh@gmail.com">hellow.ashutosh@gmail.com</Link>
                   </div>
                 </li>
                 <li className="d-flex align-items-center" data-aos="zoom-in">
@@ -81,10 +81,10 @@ const Contact = () => {
                   <div className="right">
                     <span>Contact Us</span>
                     <Link
-                      to="tel: lorem1
+                      to="tel:+916209950346
                     "
                     >
-                      +91 lorem1
+                      +91 6209950346
                     </Link>
                   </div>
                 </li>
@@ -94,7 +94,7 @@ const Contact = () => {
                   </div>
                   <div className="right">
                     <span>LOCATION</span>
-                    <h4>Surat Gujarat India</h4>
+                    <h4>Mostly On DevDisplay</h4>
                   </div>
                 </li>
               </ul>
@@ -103,10 +103,25 @@ const Contact = () => {
                 className="social_links d-flex align-items-center"
                 data-aos="zoom-in"
               >
+                                <li>
+                  <Link
+                    className="shadow_box"
+                    to="https://www.devdisplay.org/profile/codeaashu"
+                    target="_blank"
+                  >
+                    <img
+                      src="../aashuu/DevDisplay.png"
+                      alt="Instagram"
+                      width="32px"
+                      height="32px"
+                      className="instagram-icon"
+                    />
+                  </Link>
+                </li>
                 <li>
                   <Link
                     className="shadow_box"
-                    to="https://github.com/pradipladva01"
+                    to="https://github.com/codeaashu"
                     target="_blank"
                   >
                     <svg
@@ -131,7 +146,7 @@ const Contact = () => {
                 <li>
                   <Link
                     className="shadow_box"
-                    to="https://www.linkedin.com/in/pradip-ladva-539b86219/"
+                    to="https://www.linkedin.com/in/ashutoshkumaraashu/"
                     target="_blank"
                   >
                     <svg
@@ -163,7 +178,7 @@ const Contact = () => {
                 <li>
                   <Link
                     className="shadow_box"
-                    to="https://www.instagram.com/pradip_ladva_official/"
+                    to="https://twitter.com/warrior_aashuu"
                     target="_blank"
                   >
                     <svg
@@ -176,19 +191,7 @@ const Contact = () => {
                       color="#FFFFFF"
                     >
                       <path
-                        d="M12 16a4 4 0 100-8 4 4 0 000 8z"
-                        stroke="#FFFFFF"
-                        strokeWidth="1.6"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      ></path>
-                      <path
-                        d="M3 16V8a5 5 0 015-5h8a5 5 0 015 5v8a5 5 0 01-5 5H8a5 5 0 01-5-5z"
-                        stroke="#FFFFFF"
-                        strokeWidth="1.6"
-                      ></path>
-                      <path
-                        d="M17.5 6.51l.01-.011"
+                        d="M23 3.01s-2.018 1.192-3.14 1.53a4.48 4.48 0 00-7.86 3v1a10.66 10.66 0 01-9-4.53s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5 0-.278-.028-.556-.08-.83C21.94 5.674 23 3.01 23 3.01z"
                         stroke="#FFFFFF"
                         strokeWidth="1.6"
                         strokeLinecap="round"

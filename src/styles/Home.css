@@ -552,3 +552,45 @@ a:hover {
     font-size: 12px;
   }
 }/*# sourceMappingURL=Home.css.map */
+
+@font-face {
+  font-family: 'Adelia';
+  src: url('../resources/fonts/Starlita.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.instagram-icon {
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s ease;
+}
+
+.instagram-icon:hover {
+  filter: brightness(0);
+}
+
+.custom-text {
+  font-family: 'Adelia', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.bg_text {
+  font-size: 48px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+.sign_text {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}

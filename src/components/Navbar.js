@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import textureImg from "../resources/images/background_texture.png";
-import logo from "../resources/images/logo.svg";
+import logo from "../aashuu/aashuuicon.png";
 import { NavLink } from "react-router-dom";
 import "../styles/Navbar.css";
 
@@ -16,7 +16,7 @@ const Navbar = (props) => {
         <div className="container">
           <div className="gx-row d-flex align-items-center justify-content-between">
             <NavLink to="/" className="logo">
-              {/* <h3>Pradip.</h3> */}
+              {/* <h3>aashuu.</h3> */}
               <img src={logo} alt="" />
             </NavLink>
             <nav className={`navbar ${isMenuActive ? "active" : ""}`}>
@@ -48,7 +48,7 @@ const Navbar = (props) => {
               </NavLink>
             </nav>
 
-            <NavLink to="tel:+918980108806" className="theme_btn">
+            <NavLink to="tel:+916209950346" className="theme_btn">
               <img src={textureImg} alt="" className="bg_img" />
               Let's talk
             </NavLink>

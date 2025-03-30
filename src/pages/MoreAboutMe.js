@@ -1,6 +1,6 @@
 import React from 'react'
 import textureImg from '../resources/images/background_texture.png'
-import Pradip from '../resources/images/about_pradip.png'
+import Pradip from '../aashuu/profilebw.jpg'
 import Star from '../resources/images/star-2.png'
 import StarIcon from '../resources/images/star-icon.png'
 import { Helmet } from 'react-helmet-async'

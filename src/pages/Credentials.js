@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Pradip from "../resources/images/pradip.png";
+import Pradip from "../aashuu/profilebw.jpg";
 import textureImg from "../resources/images/background_texture.png";
 import "../styles/Credentials.css";
 import { Link, NavLink } from "react-router-dom";
@@ -13,7 +13,7 @@ const Credentials = () => {
       <Helmet>
         <title>About | {process.env.REACT_APP_APP_NAME}</title>
       </Helmet>
-      <Navbar/>
+      <Navbar />
       <section className="credential_area">
         <div className="container">
           <div className="gx-row d-flex">
@@ -24,12 +24,26 @@ const Credentials = () => {
                   <div className="img_box">
                     <img src={Pradip} alt="About Me" />
                   </div>
-                  <h2>Pradip Ladva</h2>
-                  <p>@pradipladva</p>
+                  <h2>Ashutosh Kumar</h2>
+                  <p>@ashutoshkumar</p>
                   <ul className="social_links d-flex justify-content-center">
+                  <li>
+                      <Link
+                        to="https://www.instagram.com/pradip_ladva_official/"
+                        target="_blank"
+                      >
+                        <img
+                          src="../aashuu/DevDisplay.png"
+                          alt="Instagram"
+                          width="32px"
+                          height="32px"
+                          className="instagram-icon"
+                        />
+                      </Link>
+                    </li>
                     <li>
                       <Link
-                        to="https://github.com/pradipladva01"
+                        to="https://github.com/codeaashu"
                         target="_blank"
                       >
                         <svg
@@ -83,45 +97,9 @@ const Credentials = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        to="https://www.instagram.com/pradip_ladva_official/"
-                        target="_blank"
-                      >
-                        <svg
-                          width="16px"
-                          height="16px"
-                          strokeWidth="1.6"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          color="#FFFFFF"
-                        >
-                          <path
-                            d="M12 16a4 4 0 100-8 4 4 0 000 8z"
-                            stroke="#FFFFFF"
-                            strokeWidth="1.6"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          ></path>
-                          <path
-                            d="M3 16V8a5 5 0 015-5h8a5 5 0 015 5v8a5 5 0 01-5 5H8a5 5 0 01-5-5z"
-                            stroke="#FFFFFF"
-                            strokeWidth="1.6"
-                          ></path>
-                          <path
-                            d="M17.5 6.51l.01-.011"
-                            stroke="#FFFFFF"
-                            strokeWidth="1.6"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          ></path>
-                        </svg>
-                      </Link>
-                    </li>
-                    <li>
-                      {/* <Link to="https://twitter.com/pradip_ladva" target='_blank'>
+                      <Link to="https://twitter.com/pradip_ladva" target='_blank'>
                         <svg width="16px" height="16px" strokeWidth="1.6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#FFFFFF"><path d="M23 3.01s-2.018 1.192-3.14 1.53a4.48 4.48 0 00-7.86 3v1a10.66 10.66 0 01-9-4.53s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5 0-.278-.028-.556-.08-.83C21.94 5.674 23 3.01 23 3.01z" stroke="#FFFFFF" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"></path></svg>
-                      </Link> */}
+                      </Link>
                     </li>
                   </ul>
                   <NavLink to="/contact" className="theme_btn">

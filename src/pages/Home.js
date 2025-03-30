@@ -1,6 +1,6 @@
 import React from "react";
 import textureImg from "../resources/images/background_texture.png";
-import Pradip from "../resources/images/pradip.png";
+import Pradip from "../aashuu/profilebw.jpg";
 import nextIcon from "../resources/images/Next_icon.svg";
 import starIcon from "../resources/images/star1.svg";
 import "../styles/Home.css";
@@ -32,9 +32,9 @@ const Home = () => {
                   <img src={Pradip} alt="" />
                 </div>
                 <div className="infos">
-                  <h4>Lorem, ipsum dolor.</h4>
-                  <h1>Lorem, ipsum..</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <h4>Frontend Engineer</h4>
+                  <h1>Ashutosh Kumar</h1>
+                  <p>A Man Who Codes & Designs Using His Hidden Creativity.</p>
                   <Link href="#" className="about_btn">
                     <img src={nextIcon} alt="Button" />
                   </Link>
@@ -48,23 +48,23 @@ const Home = () => {
                     <div className="marquee">
                       <div>
                         <span>
-                          your word <b>WORDS</b> your word
+                          Your Vision + My Visuals =<b>$$$</b>
                           <img decoding="async" src={starIcon} alt="Star" />
                         </span>
                         <span>
-                          your word <b>WORDS</b> your word
+                          Your Vision + My Visuals =<b>$$$</b>
                           <img decoding="async" src={starIcon} alt="Star" />
                         </span>
                         <span>
-                          your word <b>WORDS</b> your word
+                          Your Vision + My Visuals =<b>$$$</b>
                           <img decoding="async" src={starIcon} alt="Star" />
                         </span>
                         <span>
-                          your word <b>WORDS</b> your word
+                          Your Vision + My Visuals =<b>$$$</b>
                           <img decoding="async" src={starIcon} alt="Star" />
                         </span>
                         <span>
-                          your word <b>WORDS</b> your word
+                          Your Vision + My Visuals =<b>$$$</b>
                           <img decoding="async" src={starIcon} alt="Star" />
                         </span>
                       </div>
