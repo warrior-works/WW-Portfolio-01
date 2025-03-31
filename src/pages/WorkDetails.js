@@ -34,7 +34,7 @@ const WorkDetails = () => {
       <Helmet>
         <title>Work Detail | {process.env.REACT_APP_APP_NAME}</title>
       </Helmet>
-      <Navbar/>
+      <Navbar />
       <section className="breadcrumb_area">
         <div className="container">
           <div className="breadcrumb_content" data-aos="fade-up">
@@ -49,13 +49,13 @@ const WorkDetails = () => {
       </section>
       <section className="project_details_wrap">
         <div className="project_details_img" data-aos="zoom-in">
-          <img src={projectData.bannerImage} alt="project1" />
-          <img src={projectData.image} alt="project1" className="main-img" />
+          <img src={projectData.bannerImage} alt="project banner" />
+          <img src={projectData.image} alt="project thumbnail" className="main-img" />
           <div className="live_link" data-aos="fade-up">
             {projectData.liveLink && (
               <Link to={projectData.liveLink}>
                 Click to Watch
-                <img src={linkArrow} alt="" className="linkArrow" />
+                <img src={linkArrow} alt="link arrow" className="linkArrow" />
               </Link>
             )}
           </div>
@@ -64,23 +64,16 @@ const WorkDetails = () => {
           <div data-aos="zoom-in">
             <div className="d-flex project_infos_wrap shadow_box">
               <img src={textureImg} alt="" className="bg_img" />
-              <img src={StarIcon} alt="bg" className="star_icon" />
+              <img src={StarIcon} alt="star icon" className="star_icon" />
               <div className="project_details_info flex-1">
-                <h3>Uniqual Itech</h3>
-                <p>
-                  Crafted a dynamic company website with PHP and Laravel on the
-                  backend, while spearheading frontend development using HTML,
-                  CSS, and JavaScript. Focused on optimizing user experience by
-                  implementing responsive design, interactive features, and
-                  ensuring seamless navigation. Translated design concepts into
-                  a visually appealing and functional website, contributing to a
-                  polished and engaging digital presence
-                </p>
+                <h3>{projectData.name}</h3>
+                <p>{projectData.detailsInfo}</p>
               </div>
               <div className="project_details_info flex-1">
                 <h3>Tech Stack</h3>
-                <p>Frontend: Html, Css and JS</p>
-                <p>Backend: Laravel</p>
+                {projectData.techStack.frontend && <p>Frontend: {projectData.techStack.frontend}</p>}
+                {projectData.techStack.backend && <p>Backend: {projectData.techStack.backend}</p>}
+                {projectData.techStack.database && <p>Database: {projectData.techStack.database}</p>}
               </div>
             </div>
           </div>
