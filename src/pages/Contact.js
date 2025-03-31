@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Call from "../resources/images/phone.svg";
 import mail from "../resources/images/mail.svg";
-import Loacte from "../resources/images/pin-alt.svg";
+import Locate from "../resources/images/pin-alt.svg";
 import textureImg from "../resources/images/background_texture.png";
 import StarIcon from "../resources/images/star-icon.png";
 import Footer from "../components/Footer";
@@ -26,29 +26,28 @@ const Contact = () => {
     mode: "onTouched",
   });
   const [isSuccess, setIsSuccess] = useState(false);
-  const [message, setMessage] = useState(false);
+  const [message, setMessage] = useState("");
 
-  const apiKey = "YOUR_API_KEY";
+  const apiKey = "566ee174-5b58-4e8a-877f-623ef2de57cc";
   const { submit: onSubmit } = useWeb3Forms({
     access_key: apiKey,
     settings: {
-      from_name: "Lorem Lorem",
-      subject: "New Contact Message from your ",
+      from_name: "Ashutosh Kumar Portfolio",
+      subject: "New Contact Message",
     },
     onSuccess: (msg, data) => {
       setIsSuccess(true);
       setMessage(msg);
       reset();
-      // Show a success toast
-      toast.success(message || "Message sent successfully");
+      toast.success("Message sent successfully!");
     },
     onError: (msg, data) => {
       setIsSuccess(false);
       setMessage(msg);
-      // Show an error toast
-      toast.error(msg);
+      toast.error("Failed to send the message. Please try again.");
     },
   });
+
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
@@ -59,6 +58,7 @@ const Contact = () => {
         <title>Contact | {process.env.REACT_APP_APP_NAME}</title>
       </Helmet>
       <Navbar />
+      <ToastContainer position="bottom-left" autoClose={3000} /> {/* Always render */}
       <section className="contact_area">
         <div className="container">
           <div className="row d-flex justify-content-between">
@@ -80,17 +80,12 @@ const Contact = () => {
                   </div>
                   <div className="right">
                     <span>Contact Us</span>
-                    <Link
-                      to="tel:+916209950346
-                    "
-                    >
-                      +91 6209950346
-                    </Link>
+                    <Link to="tel:+916209950346">+91 6209950346</Link> {/* Fixed formatting */}
                   </div>
                 </li>
                 <li className="d-flex align-items-center" data-aos="zoom-in">
                   <div className="icon_box shadow_box">
-                    <img src={Loacte} alt="" />
+                    <img src={Locate} alt="" />
                   </div>
                   <div className="right">
                     <span>LOCATION</span>
@@ -258,7 +253,7 @@ const Contact = () => {
                       id="subject"
                       placeholder="Your Subject *"
                       {...register("subject", {
-                        required: "subject is required",
+                        required: "Subject is required",
                       })}
                     />
                     {errors.subject && (
@@ -274,7 +269,7 @@ const Contact = () => {
                       id="message"
                       placeholder="Your Message *"
                       {...register("message", {
-                        required: "Enter your Message",
+                        required: "Enter your message",
                       })}
                     />
                     {errors.message && (
@@ -299,7 +294,9 @@ const Contact = () => {
         </div>
       </section>
       {isSubmitSuccessful && isSuccess && (
-        <ToastContainer position="bottom-left" autoClose={3000} />
+        <div className="success-message">
+          <p>{message}</p>
+        </div>
       )}
       <Footer />
     </>
