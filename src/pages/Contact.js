@@ -47,7 +47,6 @@ const Contact = () => {
       toast.error("Failed to send the message. Please try again.");
     },
   });
-
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
@@ -58,7 +57,6 @@ const Contact = () => {
         <title>Contact | {process.env.REACT_APP_APP_NAME}</title>
       </Helmet>
       <Navbar />
-      <ToastContainer position="bottom-left" autoClose={3000} /> {/* Always render */}
       <section className="contact_area">
         <div className="container">
           <div className="row d-flex justify-content-between">
@@ -80,7 +78,7 @@ const Contact = () => {
                   </div>
                   <div className="right">
                     <span>Contact Us</span>
-                    <Link to="tel:+916209950346">+91 6209950346</Link> {/* Fixed formatting */}
+                    <Link to="tel:+916209950346">+91 6209950346</Link>
                   </div>
                 </li>
                 <li className="d-flex align-items-center" data-aos="zoom-in">
@@ -294,9 +292,7 @@ const Contact = () => {
         </div>
       </section>
       {isSubmitSuccessful && isSuccess && (
-        <div className="success-message">
-          <p>{message}</p>
-        </div>
+        <ToastContainer position="bottom-left" autoClose={3000} />
       )}
       <Footer />
     </>
