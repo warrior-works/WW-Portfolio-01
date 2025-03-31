@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>aashuu | {process.env.REACT_APP_APP_NAME}</title>
+        <title>Ashutosh Kumar Portfolio</title>
       </Helmet>
       <Navbar/>
       <section className="about_area">
