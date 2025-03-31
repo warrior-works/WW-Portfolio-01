@@ -1,23 +1,23 @@
-import uniqual from "../../resources/images/work-data/UNIQUALTHUMBNAIL.png";
-import uniqualBanner from "../../resources/images/work-data/UNIQUALBANNER.png";
-import uniqual1 from "../../resources/images/work-data/UNIQUAL1.png";
-import uniqual2 from "../../resources/images/work-data/UNIQUAL2.png";
-import uniqual3 from "../../resources/images/work-data/UNIQUAL3.png";
-import uniqual4 from "../../resources/images/work-data/UNIQUAL4.png";
+import uniqual from "../../resources/images/work-data/UNIQUAL/UNIQUALTHUMBNAIL.png";
+import uniqualBanner from "../../resources/images/work-data/UNIQUAL/UNIQUALBANNER.png";
+import uniqual1 from "../../resources/images/work-data/UNIQUAL/UNIQUAL1.png";
+import uniqual2 from "../../resources/images/work-data/UNIQUAL/UNIQUAL2.png";
+import uniqual3 from "../../resources/images/work-data/UNIQUAL/UNIQUAL3.png";
+import uniqual4 from "../../resources/images/work-data/UNIQUAL/UNIQUAL4.png";
 
-import DevDisplay from "../../resources/images/work-data/DevDisplayTHUMBNAIL.png";
-import DevDisplayBanner from "../../resources/images/work-data/DevDisplayBANNER.png";
-import DevDisplay1 from "../../resources/images/work-data/DevDisplay1.png";
-import DevDisplay2 from "../../resources/images/work-data/DevDisplay2.png";
-import DevDisplay3 from "../../resources/images/work-data/DevDisplay3.png";
-import DevDisplay4 from "../../resources/images/work-data/DevDisplay4.png";
+import DevDisplay from "../../resources/images/work-data/DevDisplay/DevDisplayTHUMBNAIL.png";
+import DevDisplayBanner from "../../resources/images/work-data/DevDisplay/DevDisplayBANNER.png";
+import DevDisplay1 from "../../resources/images/work-data/DevDisplay/DevDisplay1.png";
+import DevDisplay2 from "../../resources/images/work-data/DevDisplay/DevDisplay2.png";
+import DevDisplay3 from "../../resources/images/work-data/DevDisplay/DevDisplay3.png";
+import DevDisplay4 from "../../resources/images/work-data/DevDisplay/DevDisplay4.png";
 
-import VS from "../../resources/images/work-data/VSTHUMBNAIL.png";
-import VSBanner from "../../resources/images/work-data/VSBANNER.png";
-import VS1 from "../../resources/images/work-data/VS1.png";
-import VS2 from "../../resources/images/work-data/VS2.png";
-import VS3 from "../../resources/images/work-data/VS3.png";
-import VS4 from "../../resources/images/work-data/VS4.png";
+import VS from "../../resources/images/work-data/VS/VSTHUMBNAIL.png";
+import VSBanner from "../../resources/images/work-data/VS/VSBANNER.png";
+import VS1 from "../../resources/images/work-data/VS/VS1.png";
+import VS2 from "../../resources/images/work-data/VS/VS2.png";
+import VS3 from "../../resources/images/work-data/VS/VS3.png";
+import VS4 from "../../resources/images/work-data/VS/VS4.png";
 
 const WorkData = [
   {
