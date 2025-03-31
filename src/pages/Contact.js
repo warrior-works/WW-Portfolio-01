@@ -32,7 +32,7 @@ const Contact = () => {
   const { submit: onSubmit } = useWeb3Forms({
     access_key: apiKey,
     settings: {
-      from_name: "Ashutosh Kumar Portfolio",
+      from_name: "Message from Portfolio",
       subject: "New Contact Message",
     },
     onSuccess: (msg, data) => {
