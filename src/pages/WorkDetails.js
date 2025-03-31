@@ -53,10 +53,10 @@ const WorkDetails = () => {
           <img src={projectData.image} alt="project thumbnail" className="main-img" />
           <div className="live_link" data-aos="fade-up">
             {projectData.liveLink && (
-              <Link to={projectData.liveLink}>
+              <a href={projectData.liveLink} target="_blank" rel="noopener noreferrer">
                 Click to Watch
                 <img src={linkArrow} alt="link arrow" className="linkArrow" />
-              </Link>
+              </a>
             )}
           </div>
         </div>
