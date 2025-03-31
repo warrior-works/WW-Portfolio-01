@@ -1,6 +1,6 @@
 import React from "react";
 import textureImg from "../resources/images/background_texture.png";
-import Pradip from "../aashuu/profilebw.jpg";
+import aashuu from "../aashuu/profilebw.jpg";
 import nextIcon from "../resources/images/Next_icon.svg";
 import starIcon from "../resources/images/star1.svg";
 import "../styles/Home.css";
@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Pradip | {process.env.REACT_APP_APP_NAME}</title>
+        <title>aashuu | {process.env.REACT_APP_APP_NAME}</title>
       </Helmet>
       <Navbar/>
       <section className="about_area">
@@ -29,7 +29,7 @@ const Home = () => {
                 <Link to="/about" className="overlay_link"></Link>
                 <img src={textureImg} alt="" className="bg_img" />
                 <div className="img_box">
-                  <img src={Pradip} alt="" />
+                  <img src={aashuu} alt="" />
                 </div>
                 <div className="infos">
                   <h4>Frontend Engineer</h4>
