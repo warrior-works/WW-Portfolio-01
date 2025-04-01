@@ -19,6 +19,13 @@ import VS2 from "../../resources/images/work-data/VS/VS2.png";
 import VS3 from "../../resources/images/work-data/VS/VS3.png";
 import VS4 from "../../resources/images/work-data/VS/VS4.png";
 
+import GRG from "../../resources/images/work-data/GRG/GRGTHUMBNAIL.png";
+import GRGBanner from "../../resources/images/work-data/GRG/GRGBANNER.png";
+import GRG1 from "../../resources/images/work-data/GRG/GRG1.png";
+import GRG2 from "../../resources/images/work-data/GRG/GRG2.png";
+import GRG3 from "../../resources/images/work-data/GRG/GRG3.png";
+import GRG4 from "../../resources/images/work-data/GRG/GRG4.png";
+
 const WorkData = [
   {
     id: "uniqual",
@@ -76,6 +83,26 @@ const WorkData = [
       frontend: "React.js",
       backend: "Node.js, Express",
       database: "MongoDB",
+    },
+    nextProject: null,
+  },
+  {
+    id: "GitHub Legacy",
+    image: GRG,
+    bannerImage: GRGBanner,
+    name: "GitHub Legacy",
+    title: "GitHub Legacy - GitHub Resume Generator",
+    slug: "github-legacy",
+    liveLink: "https://github-legacy.vercel.app/",
+    image1: GRG1,
+    image2: GRG2,
+    image3: GRG3,
+    image4: GRG4,
+    detailsInfo: "Transform your GitHub journey into a professional resume in seconds! This tool automatically generates beautiful, customizable resumes by analyzing your GitHub activity, repositories, and contributions. Whether you're a developer, open-source contributor, or tech enthusiast, GitHubLegacy helps you showcase your legacy of innovation in a sleek and professional format.",
+    techStack: {
+      frontend: "Next.JS, TypeScript, Tailwind CSS",
+      backend: "GitHub API",
+      OtherTools: "html2pdf.JS"
     },
     nextProject: null,
   },
