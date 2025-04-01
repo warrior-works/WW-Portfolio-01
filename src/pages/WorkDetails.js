@@ -76,6 +76,7 @@ const WorkDetails = () => {
                 {projectData.techStack.database && <p>Database: {projectData.techStack.database}</p>}
                 {projectData.techStack.OtherTools && <p>Other Tools: {projectData.techStack.OtherTools}</p>}
                 {projectData.techStack.design && <p>Design: {projectData.techStack.design}</p>}
+                {projectData.techStack.api && <p>API: {projectData.techStack.api}</p>}
               </div>
             </div>
           </div>
