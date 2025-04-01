@@ -19,6 +19,13 @@ import VS2 from "../../resources/images/work-data/VS/VS2.png";
 import VS3 from "../../resources/images/work-data/VS/VS3.png";
 import VS4 from "../../resources/images/work-data/VS/VS4.png";
 
+import LPS from "../../resources/images/work-data/LPS/LPSTHUMBNAIL.png";
+import LPSBanner from "../../resources/images/work-data/LPS/LPSBANNER.png";
+import LPS1 from "../../resources/images/work-data/LPS/LPS1.png";
+import LPS2 from "../../resources/images/work-data/LPS/LPS2.png";
+import LPS3 from "../../resources/images/work-data/LPS/LPS3.png";
+import LPS4 from "../../resources/images/work-data/LPS/LPS4.png";
+
 import GRG from "../../resources/images/work-data/GRG/GRGTHUMBNAIL.png";
 import GRGBanner from "../../resources/images/work-data/GRG/GRGBANNER.png";
 import GRG1 from "../../resources/images/work-data/GRG/GRG1.png";
@@ -84,6 +91,25 @@ const WorkData = [
     image3: VS3,
     image4: VS4,
     detailsInfo: "Modern Responsive Website Design & development of an imaginary Architects Company - Visionary Architects who achieve mystery in the Architects design & creating environments where innovation meets tradition, and their design transcend imagination.",
+    techStack: {
+      frontend: "HTML, CSS, JavaScript, Bootstrap, Odometer",
+      design: "Figma & Pinterest",
+    },
+    nextProject: null,
+  },
+  {
+    id: "LPS Brands",
+    image: LPS,
+    bannerImage: LPSBanner,
+    name: "LPS Brands",
+    title: "Not just an agency!",
+    slug: "lps-brands",
+    liveLink: "https://lps-me.com/",
+    image1: LPS1,
+    image2: LPS2,
+    image3: LPS3,
+    image4: LPS4,
+    detailsInfo: "Modern Responsive Website Design & development of a full impact agency - LPS Brands that build Brand Communities with the power of Storytelling. Achieve mystery in the agency design & creating environments where innovation meets tradition, and their design transcend imagination. LPS is a decade-young, fiercely independent communications ecosystem headquartered in Dubai with a presence in KSA, USA, Egypt, and Jordan. It specialises in content production for digital and social media platforms, including video storytelling, gaming, podcasts, and live formats.",
     techStack: {
       frontend: "HTML, CSS, JavaScript, Bootstrap, Odometer",
       design: "Figma & Pinterest",
