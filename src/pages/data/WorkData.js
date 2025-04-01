@@ -111,8 +111,9 @@ const WorkData = [
     image4: LPS4,
     detailsInfo: "Modern Responsive Website Design & development of a full impact agency - LPS Brands that build Brand Communities with the power of Storytelling. Achieve mystery in the agency design & creating environments where innovation meets tradition, and their design transcend imagination. LPS is a decade-young, fiercely independent communications ecosystem headquartered in Dubai with a presence in KSA, USA, Egypt, and Jordan. It specialises in content production for digital and social media platforms, including video storytelling, gaming, podcasts, and live formats.",
     techStack: {
-      frontend: "HTML, CSS, JavaScript, Bootstrap, Odometer",
+      frontend: "HTML, CSS, JavaScript, GSAP, Odometer, SwiperJS",
       design: "Figma & Pinterest",
+      OtherTools: "Webflow",
     },
     nextProject: null,
   },
