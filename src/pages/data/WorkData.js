@@ -1,10 +1,3 @@
-import uniqual from "../../resources/images/work-data/UNIQUAL/UNIQUALTHUMBNAIL.png";
-import uniqualBanner from "../../resources/images/work-data/UNIQUAL/UNIQUALBANNER.png";
-import uniqual1 from "../../resources/images/work-data/UNIQUAL/UNIQUAL1.png";
-import uniqual2 from "../../resources/images/work-data/UNIQUAL/UNIQUAL2.png";
-import uniqual3 from "../../resources/images/work-data/UNIQUAL/UNIQUAL3.png";
-import uniqual4 from "../../resources/images/work-data/UNIQUAL/UNIQUAL4.png";
-
 import DevDisplay from "../../resources/images/work-data/DevDisplay/DevDisplayTHUMBNAIL.png";
 import DevDisplayBanner from "../../resources/images/work-data/DevDisplay/DevDisplayBANNER.png";
 import DevDisplay1 from "../../resources/images/work-data/DevDisplay/DevDisplay1.png";
@@ -12,12 +5,12 @@ import DevDisplay2 from "../../resources/images/work-data/DevDisplay/DevDisplay2
 import DevDisplay3 from "../../resources/images/work-data/DevDisplay/DevDisplay3.png";
 import DevDisplay4 from "../../resources/images/work-data/DevDisplay/DevDisplay4.png";
 
-import VS from "../../resources/images/work-data/VS/VSTHUMBNAIL.png";
-import VSBanner from "../../resources/images/work-data/VS/VSBANNER.png";
-import VS1 from "../../resources/images/work-data/VS/VS1.png";
-import VS2 from "../../resources/images/work-data/VS/VS2.png";
-import VS3 from "../../resources/images/work-data/VS/VS3.png";
-import VS4 from "../../resources/images/work-data/VS/VS4.png";
+import uniqual from "../../resources/images/work-data/UNIQUAL/UNIQUALTHUMBNAIL.png";
+import uniqualBanner from "../../resources/images/work-data/UNIQUAL/UNIQUALBANNER.png";
+import uniqual1 from "../../resources/images/work-data/UNIQUAL/UNIQUAL1.png";
+import uniqual2 from "../../resources/images/work-data/UNIQUAL/UNIQUAL2.png";
+import uniqual3 from "../../resources/images/work-data/UNIQUAL/UNIQUAL3.png";
+import uniqual4 from "../../resources/images/work-data/UNIQUAL/UNIQUAL4.png";
 
 import LPS from "../../resources/images/work-data/LPS/LPSTHUMBNAIL.png";
 import LPSBanner from "../../resources/images/work-data/LPS/LPSBANNER.png";
@@ -25,6 +18,13 @@ import LPS1 from "../../resources/images/work-data/LPS/LPS1.png";
 import LPS2 from "../../resources/images/work-data/LPS/LPS2.png";
 import LPS3 from "../../resources/images/work-data/LPS/LPS3.png";
 import LPS4 from "../../resources/images/work-data/LPS/LPS4.png";
+
+import VS from "../../resources/images/work-data/VS/VSTHUMBNAIL.png";
+import VSBanner from "../../resources/images/work-data/VS/VSBANNER.png";
+import VS1 from "../../resources/images/work-data/VS/VS1.png";
+import VS2 from "../../resources/images/work-data/VS/VS2.png";
+import VS3 from "../../resources/images/work-data/VS/VS3.png";
+import VS4 from "../../resources/images/work-data/VS/VS4.png";
 
 import GRG from "../../resources/images/work-data/GRG/GRGTHUMBNAIL.png";
 import GRGBanner from "../../resources/images/work-data/GRG/GRGBANNER.png";
@@ -34,27 +34,6 @@ import GRG3 from "../../resources/images/work-data/GRG/GRG3.png";
 import GRG4 from "../../resources/images/work-data/GRG/GRG4.png";
 
 const WorkData = [
-  {
-    id: "uniqual",
-    image: uniqual,
-    bannerImage: uniqualBanner,
-    name: "Uniqual ITech",
-    title: "The Powerhouse That Delivers High Quality IT",
-    slug: "uniqual",
-    liveLink: "https://uniqualitech.com/",
-    image1: uniqual1,
-    image2: uniqual2,
-    image3: uniqual3,
-    image4: uniqual4,
-    detailsInfo: "Crafted a dynamic company website with PHP and Laravel on the backend, while spearheading frontend development using HTML, CSS, and JavaScript. Focused on optimizing user experience by implementing responsive design, interactive features, and ensuring seamless navigation. Translated design concepts into a visually appealing and functional website, contributing to a polished and engaging digital presence.",
-    techStack: {
-      frontend: "HTML, CSS, JavaScript, Bootstrap, jQuery, GSAP, SwiperJS",
-      backend: "PHP, Laravel",
-      design: "Figma, Illustrator",
-      database: "MySQL",
-    },
-    nextProject: null,
-  },
   {
     id: "DevDisplay",
     image: DevDisplay,
@@ -79,21 +58,23 @@ const WorkData = [
     nextProject: null,
   },
   {
-    id: "Visionary Architects",
-    image: VS,
-    bannerImage: VSBanner,
-    name: "Visionary Architects",
-    title: "Where Innovation Meets Tradition",
-    slug: "visionary-architects",
-    liveLink: "https://visionary-architects.vercel.app/",
-    image1: VS1,
-    image2: VS2,
-    image3: VS3,
-    image4: VS4,
-    detailsInfo: "Modern Responsive Website Design & development of an imaginary Architects Company - Visionary Architects who achieve mystery in the Architects design & creating environments where innovation meets tradition, and their design transcend imagination.",
+    id: "uniqual",
+    image: uniqual,
+    bannerImage: uniqualBanner,
+    name: "Uniqual ITech",
+    title: "The Powerhouse That Delivers High Quality IT",
+    slug: "uniqual",
+    liveLink: "https://uniqualitech.com/",
+    image1: uniqual1,
+    image2: uniqual2,
+    image3: uniqual3,
+    image4: uniqual4,
+    detailsInfo: "Crafted a dynamic company website with PHP and Laravel on the backend, while spearheading frontend development using HTML, CSS, and JavaScript. Focused on optimizing user experience by implementing responsive design, interactive features, and ensuring seamless navigation. Translated design concepts into a visually appealing and functional website, contributing to a polished and engaging digital presence.",
     techStack: {
-      frontend: "HTML, CSS, JavaScript, Bootstrap, Odometer",
-      design: "Figma & Pinterest",
+      frontend: "HTML, CSS, JavaScript, Bootstrap, jQuery, GSAP, SwiperJS",
+      backend: "PHP, Laravel",
+      design: "Figma, Illustrator",
+      database: "MySQL",
     },
     nextProject: null,
   },
@@ -114,6 +95,25 @@ const WorkData = [
       frontend: "HTML, CSS, JavaScript, GSAP, Odometer, SwiperJS",
       design: "Figma & Pinterest",
       OtherTools: "Webflow",
+    },
+    nextProject: null,
+  },
+  {
+    id: "Visionary Architects",
+    image: VS,
+    bannerImage: VSBanner,
+    name: "Visionary Architects",
+    title: "Where Innovation Meets Tradition",
+    slug: "visionary-architects",
+    liveLink: "https://visionary-architects.vercel.app/",
+    image1: VS1,
+    image2: VS2,
+    image3: VS3,
+    image4: VS4,
+    detailsInfo: "Modern Responsive Website Design & development of an imaginary Architects Company - Visionary Architects who achieve mystery in the Architects design & creating environments where innovation meets tradition, and their design transcend imagination.",
+    techStack: {
+      frontend: "HTML, CSS, JavaScript, Bootstrap, Odometer",
+      design: "Figma & Pinterest",
     },
     nextProject: null,
   },
