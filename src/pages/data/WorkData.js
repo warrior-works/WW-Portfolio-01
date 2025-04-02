@@ -26,6 +26,13 @@ import VS2 from "../../resources/images/work-data/VS/VS2.png";
 import VS3 from "../../resources/images/work-data/VS/VS3.png";
 import VS4 from "../../resources/images/work-data/VS/VS4.png";
 
+import SIMSIM from "../../resources/images/work-data/SIMSIM/SIMSIMTHUMBNAIL.png";
+import SIMSIMBanner from "../../resources/images/work-data/SIMSIM/SIMSIMBANNER.png";
+import SIMSIM1 from "../../resources/images/work-data/SIMSIM/SIMSIM1.png";
+import SIMSIM2 from "../../resources/images/work-data/SIMSIM/SIMSIM2.png";
+import SIMSIM3 from "../../resources/images/work-data/SIMSIM/SIMSIM3.png";
+import SIMSIM4 from "../../resources/images/work-data/SIMSIM/SIMSIM4.png";
+
 import GRG from "../../resources/images/work-data/GRG/GRGTHUMBNAIL.png";
 import GRGBanner from "../../resources/images/work-data/GRG/GRGBANNER.png";
 import GRG1 from "../../resources/images/work-data/GRG/GRG1.png";
@@ -120,6 +127,25 @@ const WorkData = [
     detailsInfo: "Modern Responsive Website Design & development of an imaginary Architects Company - Visionary Architects who achieve mystery in the Architects design & creating environments where innovation meets tradition, and their design transcend imagination.",
     techStack: {
       frontend: "HTML, CSS, JavaScript, Bootstrap, Odometer",
+      design: "Figma & Pinterest",
+    },
+    nextProject: null,
+  },
+  {
+    id: "SimSim",
+    image: SIMSIM,
+    bannerImage: SIMSIMBanner,
+    name: "SimSim",
+    title: "SimSim - NFT Marketplace",
+    slug: "simsim",
+    liveLink: "https://simsim-nft.vercel.app/",
+    image1: SIMSIM1,
+    image2: SIMSIM2,
+    image3: SIMSIM3,
+    image4: SIMSIM4,
+    detailsInfo: "SimSim is the premier marketplace for nifty, which are digital items you can truly own for yourself. It's allows users to create, buy, and sell NFTs (Non-Fungible Tokens) on the Ethereum blockchain. It provides a user-friendly interface for artists, collectors, and enthusiasts to explore the world of digital art and collectibles. Users can mint their own NFTs, browse a wide range of digital assets, and engage in secure transactions using cryptocurrency.",
+    techStack: {
+      frontend: "HTML5, CSS3, JavaScript, Jquery UI, GSAP, BootStrap, Owl Carousel Animation, LocoMotive Animation, Swiper Bundle",
       design: "Figma & Pinterest",
     },
     nextProject: null,
