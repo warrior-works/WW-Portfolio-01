@@ -33,6 +33,13 @@ import GRG2 from "../../resources/images/work-data/GRG/GRG2.png";
 import GRG3 from "../../resources/images/work-data/GRG/GRG3.png";
 import GRG4 from "../../resources/images/work-data/GRG/GRG4.png";
 
+import RB from "../../resources/images/work-data/RB/RBTHUMBNAIL.png";
+import RBBanner from "../../resources/images/work-data/RB/RBBANNER.png";
+import RB1 from "../../resources/images/work-data/RB/RB1.png";
+import RB2 from "../../resources/images/work-data/RB/RB2.png";
+import RB3 from "../../resources/images/work-data/RB/RB3.png";
+import RB4 from "../../resources/images/work-data/RB/RB4.png";
+
 const WorkData = [
   {
     id: "DevDisplay",
@@ -133,6 +140,25 @@ const WorkData = [
     techStack: {
       frontend: "Next.js, TypeScript, Tailwind CSS",
       api: "GitHub API",
+      OtherTools: "html2pdf.JS"
+    },
+    nextProject: null,
+  },
+  {
+    id: "Resume Builder",
+    image: RB,
+    bannerImage: RBBanner,
+    name: "Resume Builder",
+    title: "Your resume in three easy steps",
+    slug: "resume-builder",
+    liveLink: "https://resume-builder-pro.vercel.app/",
+    image1: RB1,
+    image2: RB2,
+    image3: RB3,
+    image4: RB4,
+    detailsInfo: "Resume Builder is a Web App where users can easily create professional and personalized resumes. Through a resume builder, you can create a professional-looking resume in a few easy steps. This resume builder typically provide templates for creating a resume. Users can fill in their personal information, work experience, education, skills, and other relevant details. The website then formats this information into a polished resume that can be downloaded or printed. ",
+    techStack: {
+      frontend: "React.js, Chakra UI, React Router, React Icons, Bootstrap",
       OtherTools: "html2pdf.JS"
     },
     nextProject: null,
