@@ -33,6 +33,20 @@ import SIMSIM2 from "../../resources/images/work-data/SIMSIM/SIMSIM2.png";
 import SIMSIM3 from "../../resources/images/work-data/SIMSIM/SIMSIM3.png";
 import SIMSIM4 from "../../resources/images/work-data/SIMSIM/SIMSIM4.png";
 
+import SIMSIM from "../../resources/images/work-data/SIMSIM/SIMSIMTHUMBNAIL.png";
+import SIMSIMBanner from "../../resources/images/work-data/SIMSIM/SIMSIMBANNER.png";
+import SIMSIM1 from "../../resources/images/work-data/SIMSIM/SIMSIM1.png";
+import SIMSIM2 from "../../resources/images/work-data/SIMSIM/SIMSIM2.png";
+import SIMSIM3 from "../../resources/images/work-data/SIMSIM/SIMSIM3.png";
+import SIMSIM4 from "../../resources/images/work-data/SIMSIM/SIMSIM4.png";
+
+import MOQO from "../../resources/images/work-data/MOQO/MOQOTHUMBNAIL.png";
+import MOQOBanner from "../../resources/images/work-data/MOQO/MOQOBANNER.png";
+import MOQO1 from "../../resources/images/work-data/MOQO/MOQO1.png";
+import MOQO2 from "../../resources/images/work-data/MOQO/MOQO2.png";
+import MOQO3 from "../../resources/images/work-data/MOQO/MOQO3.png";
+import MOQO4 from "../../resources/images/work-data/MOQO/MOQO4.png";
+
 import GRG from "../../resources/images/work-data/GRG/GRGTHUMBNAIL.png";
 import GRGBanner from "../../resources/images/work-data/GRG/GRGBANNER.png";
 import GRG1 from "../../resources/images/work-data/GRG/GRG1.png";
@@ -46,13 +60,6 @@ import RB1 from "../../resources/images/work-data/RB/RB1.png";
 import RB2 from "../../resources/images/work-data/RB/RB2.png";
 import RB3 from "../../resources/images/work-data/RB/RB3.png";
 import RB4 from "../../resources/images/work-data/RB/RB4.png";
-
-import MOQO from "../../resources/images/work-data/MOQO/MOQOTHUMBNAIL.png";
-import MOQOBanner from "../../resources/images/work-data/MOQO/MOQOBANNER.png";
-import MOQO1 from "../../resources/images/work-data/MOQO/MOQO1.png";
-import MOQO2 from "../../resources/images/work-data/MOQO/MOQO2.png";
-import MOQO3 from "../../resources/images/work-data/MOQO/MOQO3.png";
-import MOQO4 from "../../resources/images/work-data/MOQO/MOQO4.png";
 
 const WorkData = [
   {
@@ -159,17 +166,17 @@ const WorkData = [
   },
   {
     id: "AORUS",
-    image: SIMSIM,
-    bannerImage: SIMSIMBanner,
+    image: AORUS,
+    bannerImage: AORUSBanner,
     name: "SimSim",
-    title: "SimSim - NFT Marketplace",
+    title: "origins of aorus verse",
     slug: "simsim",
     liveLink: "https://simsim-nft.vercel.app/",
     image1: SIMSIM1,
     image2: SIMSIM2,
     image3: SIMSIM3,
     image4: SIMSIM4,
-    detailsInfo: "SimSim is the premier marketplace for nifty, which are digital items you can truly own for yourself. It's allows users to create, buy, and sell NFTs (Non-Fungible Tokens) on the Ethereum blockchain. It provides a user-friendly interface for artists, collectors, and enthusiasts to explore the world of digital art and collectibles. Users can mint their own NFTs, browse a wide range of digital assets, and engage in secure transactions using cryptocurrency.",
+    detailsInfo: "Reimagined the AORUS Company Website! AORUS is a premium gaming brand from GIGABYTE, specializing in gaming hardware and peripherals like motherboards, graphics cards, laptops, and accessories, aiming to provide extreme gaming experiences",
     techStack: {
       frontend: "HTML5, CSS3, JavaScript, Jquery UI, GSAP, BootStrap, Owl Carousel Animation, LocoMotive Animation, Swiper Bundle",
       design: "Figma & Pinterest",
