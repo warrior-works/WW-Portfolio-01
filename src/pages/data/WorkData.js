@@ -33,12 +33,12 @@ import SIMSIM2 from "../../resources/images/work-data/SIMSIM/SIMSIM2.png";
 import SIMSIM3 from "../../resources/images/work-data/SIMSIM/SIMSIM3.png";
 import SIMSIM4 from "../../resources/images/work-data/SIMSIM/SIMSIM4.png";
 
-import SIMSIM from "../../resources/images/work-data/SIMSIM/SIMSIMTHUMBNAIL.png";
-import SIMSIMBanner from "../../resources/images/work-data/SIMSIM/SIMSIMBANNER.png";
-import SIMSIM1 from "../../resources/images/work-data/SIMSIM/SIMSIM1.png";
-import SIMSIM2 from "../../resources/images/work-data/SIMSIM/SIMSIM2.png";
-import SIMSIM3 from "../../resources/images/work-data/SIMSIM/SIMSIM3.png";
-import SIMSIM4 from "../../resources/images/work-data/SIMSIM/SIMSIM4.png";
+import AORUS from "../../resources/images/work-data/AORUS/AORUSTHUMBNAIL.png";
+import AORUSBanner from "../../resources/images/work-data/AORUS/AORUSBANNER.png";
+import AORUS1 from "../../resources/images/work-data/AORUS/AORUS1.png";
+import AORUS2 from "../../resources/images/work-data/AORUS/AORUS2.png";
+import AORUS3 from "../../resources/images/work-data/AORUS/AORUS3.png";
+import AORUS4 from "../../resources/images/work-data/AORUS/AORUS4.png";
 
 import MOQO from "../../resources/images/work-data/MOQO/MOQOTHUMBNAIL.png";
 import MOQOBanner from "../../resources/images/work-data/MOQO/MOQOBANNER.png";
@@ -168,14 +168,14 @@ const WorkData = [
     id: "AORUS",
     image: AORUS,
     bannerImage: AORUSBanner,
-    name: "SimSim",
+    name: "AORUS",
     title: "origins of aorus verse",
-    slug: "simsim",
-    liveLink: "https://simsim-nft.vercel.app/",
-    image1: SIMSIM1,
-    image2: SIMSIM2,
-    image3: SIMSIM3,
-    image4: SIMSIM4,
+    slug: "aorus",
+    liveLink: "https://aorus-reimagine.vercel.app/",
+    image1: AORUS1,
+    image2: AORUS2,
+    image3: AORUS3,
+    image4: AORUS4,
     detailsInfo: "Reimagined the AORUS Company Website! AORUS is a premium gaming brand from GIGABYTE, specializing in gaming hardware and peripherals like motherboards, graphics cards, laptops, and accessories, aiming to provide extreme gaming experiences",
     techStack: {
       frontend: "HTML5, CSS3, JavaScript, Jquery UI, GSAP, BootStrap, Owl Carousel Animation, LocoMotive Animation, Swiper Bundle",
