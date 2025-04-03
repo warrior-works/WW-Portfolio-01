@@ -47,6 +47,13 @@ import RB2 from "../../resources/images/work-data/RB/RB2.png";
 import RB3 from "../../resources/images/work-data/RB/RB3.png";
 import RB4 from "../../resources/images/work-data/RB/RB4.png";
 
+import MOQO from "../../resources/images/work-data/MOQO/MOQOTHUMBNAIL.png";
+import MOQOBanner from "../../resources/images/work-data/MOQO/MOQOBANNER.png";
+import MOQO1 from "../../resources/images/work-data/MOQO/MOQO1.png";
+import MOQO2 from "../../resources/images/work-data/MOQO/MOQO2.png";
+import MOQO3 from "../../resources/images/work-data/MOQO/MOQO3.png";
+import MOQO4 from "../../resources/images/work-data/MOQO/MOQO4.png";
+
 const WorkData = [
   {
     id: "DevDisplay",
@@ -146,6 +153,25 @@ const WorkData = [
     detailsInfo: "SimSim is the premier marketplace for nifty, which are digital items you can truly own for yourself. It's allows users to create, buy, and sell NFTs (Non-Fungible Tokens) on the Ethereum blockchain. It provides a user-friendly interface for artists, collectors, and enthusiasts to explore the world of digital art and collectibles. Users can mint their own NFTs, browse a wide range of digital assets, and engage in secure transactions using cryptocurrency.",
     techStack: {
       frontend: "HTML5, CSS3, JavaScript, Jquery UI, GSAP, BootStrap, Owl Carousel Animation, LocoMotive Animation, Swiper Bundle",
+      design: "Figma & Pinterest",
+    },
+    nextProject: null,
+  },
+  {
+    id: "MOQO",
+    image: MOQO,
+    bannerImage: MOQOBanner,
+    name: "MOQO",
+    title: "MOQO - we build brands",
+    slug: "moqo",
+    liveLink: "https://moqo-aashu.vercel.app/",
+    image1: MOQO1,
+    image2: MOQO2,
+    image3: MOQO3,
+    image4: MOQO4,
+    detailsInfo: "Reimagined the MOQO Company Website! MOQO is Branding agency that develops brands from a well-thought-out brand strategy, whether in terms of corporate branding, product branding or employer branding.",
+    techStack: {
+      frontend: "HTML5, CSS3, JavaScript, Jquery UI, GSAP, Scroll Trigger, LocoMotive Animation, Canvas, Swiper Bundle",
       design: "Figma & Pinterest",
     },
     nextProject: null,
