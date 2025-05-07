@@ -34,7 +34,7 @@ const Home = () => {
                 <div className="infos">
                   <h4>Frontend Engineer</h4>
                   <h1>Ashutosh Kumar</h1>
-                  <p>A Man Who Codes & Designs Using His Hidden Creativity.</p>
+                  <p>Designing & developing web apps with a mind full of fucking obsessed creativity.</p>
                   <Link href="#" className="about_btn">
                     <img src={nextIcon} alt="Button" />
                   </Link>
