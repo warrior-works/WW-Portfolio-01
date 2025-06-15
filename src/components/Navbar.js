@@ -37,6 +37,11 @@ const Navbar = (props) => {
                   </NavLink>
                 </li>
                 <li>
+                  <NavLink to="/blog" onClick={handleMenuClick}>
+                    Blogs
+                  </NavLink>
+                </li>
+                <li>
                   <NavLink to="/contact" onClick={handleMenuClick}>
                     Contact
                   </NavLink>

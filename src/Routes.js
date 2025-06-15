@@ -6,9 +6,11 @@ const Home = lazy(() => retry(() => import("./pages/Home")));
 const MoreAboutMe = lazy(() => retry(() => import("./pages/MoreAboutMe")));
 const Credentials = lazy(() => retry(() => import("./pages/Credentials")));
 const Works = lazy(() => retry(() => import("./pages/Works")));
+const Blog = lazy(() => retry(() => import("./pages/Blog")));
 const Contact = lazy(() => retry(() => import("./pages/Contact")));
 const Service = lazy(() => retry(() => import("./pages/Service")));
 const WorkDetails = lazy(() => retry(() => import("./pages/WorkDetails")));
+const BlogDetails = lazy(() => retry(() => import("./pages/BlogDetails")));
 const FourOhFour = lazy(() => retry(() => import("./pages/FourOhFour")));
 const Routes = () => {
 
@@ -34,6 +36,10 @@ const Routes = () => {
       element: <Works />,
     },
     {
+      path: "/blog",
+      element: <Blog />,
+    },
+    {
       path: "/contact",
       element: <Contact />,
     },
@@ -46,10 +52,14 @@ const Routes = () => {
       component: WorkDetails,
       element: <WorkDetails />,
     },
-      {
-        path: "/*",
-        element: <Navigate replace to="/404" />,
-      },
+    {
+      path: "/blog-details/:slug",
+      element: <BlogDetails />,
+    },
+    {
+      path: "/*",
+      element: <Navigate replace to="/404" />,
+    },
     {
       path: "/404",
       element: <FourOhFour />,
