@@ -1,12 +1,11 @@
 import React from "react";
-import linkArrow from "../resources/images/link-arrow.svg";
 import Star from "../resources/images/star-2.png";
 import StarIcon from "../resources/images/star-icon.png";
 import textureImg from "../resources/images/background_texture.png";
 import Footer from "../components/Footer";
 import "../styles/BlogDetails.css";
 import { Helmet } from "react-helmet-async";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import BlogData from "./data/BlogData";
 import Navbar from "../components/Navbar";
 import ReactMarkdown from "react-markdown"; // <-- Add this import
