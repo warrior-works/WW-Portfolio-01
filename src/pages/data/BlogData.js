@@ -77,7 +77,7 @@ It holds the weight of your ambition, your long nights, your resilience.
 
 You come back to your apartment after a long day,  
 change into your comfortable clothes, sit near the window,  
-and for a moment, you exhale ◡̈  
+and for a moment, you exhale .☘︎ ݁˖  
 and that’s home.
 
 Even the local chai tapri ☕︎ near your office,  
