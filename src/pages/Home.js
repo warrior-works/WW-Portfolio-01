@@ -32,9 +32,9 @@ const Home = () => {
                   <img src={aashuu} alt="" />
                 </div>
                 <div className="infos">
-                  <h4>Product Engineer</h4>
+                  <h4>Software Engineer • Frontend & UX Engineering Expert</h4>
                   <h1>Ashutosh Kumar</h1>
-                  <p>Designing & developing production ready web apps with a mind full of fucking obsessed creativity.</p>
+                  <p>Designing & developing production ready web apps with a mind full of fucking obsessed creativity • Currently in GSoC'25 • Open to contract based freelance work only.</p>
                   <Link href="#" className="about_btn">
                     <img src={nextIcon} alt="Button" />
                   </Link>
