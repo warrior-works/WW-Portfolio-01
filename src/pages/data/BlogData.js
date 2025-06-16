@@ -2,7 +2,7 @@ const BlogData = [
   {
     id: "its-where-you-are",
     image: require("../../resources/images/blog-data/Home square.jpg"),
-    bannerImage: require("../../resources/images/blog-data/Home YTC.jpg"),
+    bannerImage: require("../../resources/images/blog-data/Homethumb.jpg"),
     name: "It's where",
     title: "It's where you are",
     slug: "its-where-you-are",
@@ -24,6 +24,9 @@ You’re not meant to belong to the world, or the people around you.
 You just need to belong to yourself first, and be your own true self
 
 Home. It’s in you, **it’s where you are**
+
+
+
 
 \`\`\`
 Zindagi se yahi gila hai mujhe  
