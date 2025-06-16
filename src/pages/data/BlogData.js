@@ -1,8 +1,8 @@
 const BlogData = [
   {
     id: "its-where-you-are",
-    image: require("../../resources/images/work-data/UNIQUAL/UNIQUALTHUMBNAIL.png"),
-    bannerImage: require("../../resources/images/work-data/UNIQUAL/UNIQUALTHUMBNAIL.png"),
+    image: require("../../resources/images/blog-data/Home square.jpg"),
+    bannerImage: require("../../resources/images/blog-data/Home YTC.jpg"),
     name: "It's where",
     title: "It's where you are",
     slug: "its-where-you-are",
