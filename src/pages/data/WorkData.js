@@ -19,6 +19,13 @@ import LPS2 from "../../resources/images/work-data/LPS/LPS2.png";
 import LPS3 from "../../resources/images/work-data/LPS/LPS3.png";
 import LPS4 from "../../resources/images/work-data/LPS/LPS4.png";
 
+import NAD from "../../resources/images/work-data/NextjsAPIDecorators/NextjsAPIDecoratorsTHUMBNAIL.png";
+import NADBanner from "../../resources/images/work-data/NextjsAPIDecorators/LPSBANNER.png";
+import NAD1 from "../../resources/images/work-data/NextjsAPIDecorators/NextjsAPIDecorators1.png";
+import NAD2 from "../../resources/images/work-data/NextjsAPIDecorators/NextjsAPIDecorators2.png";
+import NAD3 from "../../resources/images/work-data/NextjsAPIDecorators/NextjsAPIDecorators3.png";
+import NAD4 from "../../resources/images/work-data/NextjsAPIDecorators/NextjsAPIDecorators4.png";
+
 import VS from "../../resources/images/work-data/VS/VSTHUMBNAIL.png";
 import VSBanner from "../../resources/images/work-data/VS/VSBANNER.png";
 import VS1 from "../../resources/images/work-data/VS/VS1.png";
@@ -135,16 +142,16 @@ const WorkData = [
   },
   {
     id: "Next.js API Decorators",
-    image: LPS,
-    bannerImage: LPSBanner,
+    image: NAD,
+    bannerImage: NADBanner,
     name: "Next.js API Decorators",
     title: "Next.js API Decorators",
     slug: "nextjs-api-decorators",
     liveLink: "https://nextjs-api-decorators.vercel.app/",
-    image1: LPS1,
-    image2: LPS2,
-    image3: LPS3,
-    image4: LPS4,
+    image1: NAD1,
+    image2: NAD2,
+    image3: NAD3,
+    image4: NAD4,
     detailsInfo: "A collection of decorators to create typed Next.js API routes, with easy request validation and transformation.",
     techStack: {
       frontend: "Next.js, TypeScript, Tailwind CSS",
