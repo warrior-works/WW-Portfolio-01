@@ -90,7 +90,7 @@ const WorkData = [
       design: "Figma, Adobe XD, Illustrator, Blender",
       OtherTools: "Shell Scripting, Markdown, GitHub Actions, Vercel, AWS, DevOps, Docker",
     },
-    nextProject: null,
+    nextProject: "uniqual",
   },
   {
     id: "uniqual",
@@ -111,7 +111,7 @@ const WorkData = [
       design: "Figma, Illustrator",
       database: "MySQL",
     },
-    nextProject: null,
+    nextProject: "LPS Brands",
   },
   {
     id: "LPS Brands",
@@ -131,7 +131,27 @@ const WorkData = [
       design: "Figma & Pinterest",
       OtherTools: "Webflow",
     },
-    nextProject: null,
+    nextProject: "Visionary Architects",
+  },
+  {
+    id: "LPS Brands",
+    image: LPS,
+    bannerImage: LPSBanner,
+    name: "LPS Brands",
+    title: "Not just an agency!",
+    slug: "lps-brands",
+    liveLink: "https://lps-me.com/",
+    image1: LPS1,
+    image2: LPS2,
+    image3: LPS3,
+    image4: LPS4,
+    detailsInfo: "Modern Responsive Website Design & development of a full impact agency - LPS Brands that build Brand Communities with the power of Storytelling. Achieve mystery in the agency design & creating environments where innovation meets tradition, and their design transcend imagination. LPS is a decade-young, fiercely independent communications ecosystem headquartered in Dubai with a presence in KSA, USA, Egypt, and Jordan. It specialises in content production for digital and social media platforms, including video storytelling, gaming, podcasts, and live formats.",
+    techStack: {
+      frontend: "HTML, CSS, JavaScript, GSAP, Odometer, SwiperJS",
+      design: "Figma & Pinterest",
+      OtherTools: "Webflow",
+    },
+    nextProject: "Visionary Architects",
   },
   {
     id: "Visionary Architects",
@@ -150,7 +170,7 @@ const WorkData = [
       frontend: "HTML, CSS, JavaScript, Bootstrap, Odometer",
       design: "Figma & Pinterest",
     },
-    nextProject: null,
+    nextProject: "SimSim",
   },
   {
     id: "SimSim",
@@ -169,7 +189,7 @@ const WorkData = [
       frontend: "HTML5, CSS3, JavaScript, Jquery UI, GSAP, BootStrap, Owl Carousel Animation, LocoMotive Animation, Swiper Bundle",
       design: "Figma & Pinterest",
     },
-    nextProject: null,
+    nextProject: "AORUS",
   },
   {
     id: "AORUS",
@@ -188,7 +208,7 @@ const WorkData = [
       frontend: "HTML5, CSS3, JavaScript, Jquery UI, GSAP, BootStrap, Owl Carousel Animation, LocoMotive Animation, Swiper Bundle",
       design: "Figma & Pinterest",
     },
-    nextProject: null,
+    nextProject: "MOQO",
   },
   {
     id: "MOQO",
@@ -207,7 +227,7 @@ const WorkData = [
       frontend: "HTML5, CSS3, JavaScript, Jquery UI, GSAP, Scroll Trigger, LocoMotive Animation, Canvas, Swiper Bundle",
       design: "Figma & Pinterest",
     },
-    nextProject: null,
+    nextProject: "GitHub Legacy",
   },
   // {
   //   id: "RUNWEB",
@@ -246,7 +266,7 @@ const WorkData = [
       api: "GitHub API",
       OtherTools: "html2pdf.JS"
     },
-    nextProject: null,
+    nextProject: "Resume Builder",
   },
   {
     id: "Resume Builder",
