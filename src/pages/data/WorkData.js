@@ -20,7 +20,7 @@ import LPS3 from "../../resources/images/work-data/LPS/LPS3.png";
 import LPS4 from "../../resources/images/work-data/LPS/LPS4.png";
 
 import NAD from "../../resources/images/work-data/NextjsAPIDecorators/NextjsAPIDecoratorsTHUMBNAIL.png";
-import NADBanner from "../../resources/images/work-data/NextjsAPIDecorators/LPSBANNER.png";
+import NADBanner from "../../resources/images/work-data/NextjsAPIDecoratorsBANNER.png";
 import NAD1 from "../../resources/images/work-data/NextjsAPIDecorators/NextjsAPIDecorators1.png";
 import NAD2 from "../../resources/images/work-data/NextjsAPIDecorators/NextjsAPIDecorators2.png";
 import NAD3 from "../../resources/images/work-data/NextjsAPIDecorators/NextjsAPIDecorators3.png";
