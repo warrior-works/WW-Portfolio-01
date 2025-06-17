@@ -186,6 +186,19 @@ Ghar to wahi tha, jo mere saath chala, wo pata sa nahi tha!!
     `,
     nextBlog: null,
   },
+  // {
+  //   id: "Finding Light",
+  //   image: require("../../resources/images/blog-data/Light square.jpg"),
+  //   bannerImage: require("../../resources/images/blog-data/Lightthumb.jpg"),
+  //   name: "Finding Light",
+  //   title: "In the darkest of times, we find our light",
+  //   slug: "finding-light",
+  //   content: `
+
+  //   ***Finding Light**
+  //   `,
+  //   nextBlog: "Where’s home?",
+  // },
 ];
 
 export default BlogData;
