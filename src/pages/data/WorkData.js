@@ -26,6 +26,13 @@ import NAD2 from "../../resources/images/work-data/NextjsAPIDecorators/NextjsAPI
 import NAD3 from "../../resources/images/work-data/NextjsAPIDecorators/NextjsAPIDecorators3.png";
 import NAD4 from "../../resources/images/work-data/NextjsAPIDecorators/NextjsAPIDecorators4.png";
 
+import CodingAura from "../../resources/images/work-data/CodingAura/CodingAuraTHUMBNAIL.png";
+import CodingAuraBanner from "../../resources/images/work-data/CodingAura/CodingAuraBANNER.png";
+import CodingAura1 from "../../resources/images/work-data/CodingAura/CodingAura1.png";
+import CodingAura2 from "../../resources/images/work-data/CodingAura/CodingAura2.png";
+import CodingAura3 from "../../resources/images/work-data/CodingAura/CodingAura3.png";
+import CodingAura4 from "../../resources/images/work-data/CodingAura/CodingAura4.png";
+
 import VS from "../../resources/images/work-data/VS/VSTHUMBNAIL.png";
 import VSBanner from "../../resources/images/work-data/VS/VSBANNER.png";
 import VS1 from "../../resources/images/work-data/VS/VS1.png";
@@ -162,16 +169,16 @@ const WorkData = [
   },
   {
     id: "Coding Aura",
-    image: NAD,
-    bannerImage: NADBanner,
+    image: CodingAura,
+    bannerImage: CodingAuraBanner,
     name: "Coding Aura",
     title: "Flex Your Coding Journey on Social",
     slug: "coding-aura",
     liveLink: "https://codingaura.vercel.app/",
-    image1: NAD1,
-    image2: NAD2,
-    image3: NAD3,
-    image4: NAD4,
+    image1: CodingAura1,
+    image2: CodingAura2,
+    image3: CodingAura3,
+    image4: CodingAura4,
     detailsInfo: "Tired of copy pasting 𝗿𝗲𝗾.𝗺𝗲𝘁𝗵𝗼𝗱 === '𝗣𝗢𝗦𝗧' like a fucking monkey on a keyboard? Wait! You deserve better, baby! Say hello to ✦ 𝗡𝗲𝘅𝘁.𝗷𝘀 𝗔𝗣𝗜 𝗗𝗲𝗰𝗼𝗿𝗮𝘁𝗼𝗿𝘀. A collection of decorators to create typed Next.js API routes, with easy request validation and transformation. @Get() / @Post() @Body(), @Query(), @Headers() Built-in validation pipes Typed handlers, clean classes Middleware support Zero-config, just plug and punch code.",
     techStack: {
       frontend: "Next.js, TypeScript, Tailwind CSS, NPM Packages",
