@@ -62,7 +62,7 @@ import MOQO3 from "../../resources/images/work-data/MOQO/MOQO3.png";
 import MOQO4 from "../../resources/images/work-data/MOQO/MOQO4.png";
 
 import CodingAura from "../../resources/images/work-data/CodingAura/CodingAuraTHUMBNAIL.png";
-import CodingAuraBanner from "../../resources/images/work-data/CodingAura/CodingAuraBANNER.png";
+import CodingAuraBanner from "../../resources/images/work-data/CodingAura/CABANNER.png";
 import CodingAura1 from "../../resources/images/work-data/CodingAura/CodingAura1.png";
 import CodingAura2 from "../../resources/images/work-data/CodingAura/CodingAura2.png";
 import CodingAura3 from "../../resources/images/work-data/CodingAura/CodingAura3.png";
