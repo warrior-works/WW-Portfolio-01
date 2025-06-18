@@ -165,7 +165,7 @@ const WorkData = [
     image: NAD,
     bannerImage: NADBanner,
     name: "Coding Aura",
-    title: "",
+    title: "Flex Your Coding Journey on Social",
     slug: "coding-aura",
     liveLink: "https://codingaura.vercel.app/",
     image1: NAD1,
