@@ -26,6 +26,13 @@ import NAD2 from "../../resources/images/work-data/NextjsAPIDecorators/NextjsAPI
 import NAD3 from "../../resources/images/work-data/NextjsAPIDecorators/NextjsAPIDecorators3.png";
 import NAD4 from "../../resources/images/work-data/NextjsAPIDecorators/NextjsAPIDecorators4.png";
 
+import DevDisplayC from "../../resources/images/work-data/DevDisplayC/DevDisplayCTHUMBNAIL.png";
+import DevDisplayCBanner from "../../resources/images/work-data/DevDisplayC/DevDisplayCBANNER.png";
+import DevDisplayC1 from "../../resources/images/work-data/DevDisplayC/DevDisplayC1.png";
+import DevDisplayC2 from "../../resources/images/work-data/DevDisplayC/DevDisplayC2.png";
+import DevDisplayC3 from "../../resources/images/work-data/DevDisplayC/DevDisplayC3.png";
+import DevDisplayC4 from "../../resources/images/work-data/DevDisplayC/DevDisplayC4.png";
+
 import CodingAura from "../../resources/images/work-data/CodingAura/CodingAuraTHUMBNAIL.png";
 import CodingAuraBanner from "../../resources/images/work-data/CodingAura/CodingAuraBANNER.png";
 import CodingAura1 from "../../resources/images/work-data/CodingAura/CodingAura1.png";
@@ -169,16 +176,16 @@ const WorkData = [
   },
   {
     id: "Next.js API Decorators",
-    image: NAD,
-    bannerImage: NADBanner,
+    image: DevDisplayC,
+    bannerImage: DevDisplayCBanner,
     name: "Next.js API Decorators",
     title: "A collection of decorators!",
     slug: "nextjs-api-decorators",
     liveLink: "https://www.devdisplay.tech/",
-    image1: NAD1,
-    image2: NAD2,
-    image3: NAD3,
-    image4: NAD4,
+    image1: DevDisplayC1,
+    image2: DevDisplayC2,
+    image3: DevDisplayC3,
+    image4: DevDisplayC4,
     detailsInfo: "Tired of copy pasting 𝗿𝗲𝗾.𝗺𝗲𝘁𝗵𝗼𝗱 === '𝗣𝗢𝗦𝗧' like a fucking monkey on a keyboard? Wait! You deserve better, baby! Say hello to ✦ 𝗡𝗲𝘅𝘁.𝗷𝘀 𝗔𝗣𝗜 𝗗𝗲𝗰𝗼𝗿𝗮𝘁𝗼𝗿𝘀. A collection of decorators to create typed Next.js API routes, with easy request validation and transformation. @Get() / @Post() @Body(), @Query(), @Headers() Built-in validation pipes Typed handlers, clean classes Middleware support Zero-config, just plug and punch code.",
     techStack: {
       frontend: "Next.js, TypeScript, Tailwind CSS, NPM Packages",
