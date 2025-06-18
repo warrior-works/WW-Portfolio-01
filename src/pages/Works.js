@@ -20,7 +20,7 @@ const Works = () => {
         <div className="container">
           <h1 className="section_heading" data-aos="fade-up">
             <img src={Star} alt="star" />
-            All Projects
+            Recent Projects
             <img src={Star} alt="star" />
           </h1>
           <div className="row">
