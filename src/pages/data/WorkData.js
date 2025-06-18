@@ -33,13 +33,6 @@ import DevDisplayC2 from "../../resources/images/work-data/DevDisplayC/DevDispla
 import DevDisplayC3 from "../../resources/images/work-data/DevDisplayC/DevDisplayC3.png";
 import DevDisplayC4 from "../../resources/images/work-data/DevDisplayC/DevDisplayC4.png";
 
-import CodingAura from "../../resources/images/work-data/CodingAura/CodingAuraTHUMBNAIL.png";
-import CodingAuraBanner from "../../resources/images/work-data/CodingAura/CodingAuraBANNER.png";
-import CodingAura1 from "../../resources/images/work-data/CodingAura/CodingAura1.png";
-import CodingAura2 from "../../resources/images/work-data/CodingAura/CodingAura2.png";
-import CodingAura3 from "../../resources/images/work-data/CodingAura/CodingAura3.png";
-import CodingAura4 from "../../resources/images/work-data/CodingAura/CodingAura4.png";
-
 import VS from "../../resources/images/work-data/VS/VSTHUMBNAIL.png";
 import VSBanner from "../../resources/images/work-data/VS/VSBANNER.png";
 import VS1 from "../../resources/images/work-data/VS/VS1.png";
@@ -74,6 +67,13 @@ import MOQO4 from "../../resources/images/work-data/MOQO/MOQO4.png";
 // import RUNWEB2 from "../../resources/images/work-data/RUNWEB/RUNWEB2.png";
 // import RUNWEB3 from "../../resources/images/work-data/RUNWEB/RUNWEB3.png";
 // import RUNWEB4 from "../../resources/images/work-data/RUNWEB/RUNWEB4.png";
+
+import CodingAura from "../../resources/images/work-data/CodingAura/CodingAuraTHUMBNAIL.png";
+import CodingAuraBanner from "../../resources/images/work-data/CodingAura/CodingAuraBANNER.png";
+import CodingAura1 from "../../resources/images/work-data/CodingAura/CodingAura1.png";
+import CodingAura2 from "../../resources/images/work-data/CodingAura/CodingAura2.png";
+import CodingAura3 from "../../resources/images/work-data/CodingAura/CodingAura3.png";
+import CodingAura4 from "../../resources/images/work-data/CodingAura/CodingAura4.png";
 
 import GRG from "../../resources/images/work-data/GRG/GRGTHUMBNAIL.png";
 import GRGBanner from "../../resources/images/work-data/GRG/GRGBANNER.png";
@@ -118,7 +118,7 @@ const WorkData = [
     image: uniqual,
     bannerImage: uniqualBanner,
     name: "Uniqual ITech",
-    title: "The Powerhouse That Delivers High Quality IT",
+    title: "Powerhouse That Delivers High Quality IT",
     slug: "uniqual",
     liveLink: "https://uniqualitech.com/",
     image1: uniqual1,
@@ -211,14 +211,14 @@ const WorkData = [
       frontend: "HTML, CSS, JavaScript, Bootstrap, Odometer",
       design: "Figma & Pinterest",
     },
-    nextProject: "SimSim",
+    nextProject: "simsim",
   },
   {
     id: "SimSim",
     image: SIMSIM,
     bannerImage: SIMSIMBanner,
     name: "SimSim",
-    title: "SimSim - NFT Marketplace",
+    title: "NFT Marketplace",
     slug: "simsim",
     liveLink: "https://simsim-nft.vercel.app/",
     image1: SIMSIM1,
@@ -230,7 +230,7 @@ const WorkData = [
       frontend: "HTML5, CSS3, JavaScript, Jquery UI, GSAP, BootStrap, Owl Carousel Animation, LocoMotive Animation, Swiper Bundle",
       design: "Figma & Pinterest",
     },
-    nextProject: "AORUS",
+    nextProject: "aorus",
   },
   {
     id: "AORUS",
@@ -249,7 +249,7 @@ const WorkData = [
       frontend: "HTML5, CSS3, JavaScript, Jquery UI, GSAP, BootStrap, Owl Carousel Animation, LocoMotive Animation, Swiper Bundle",
       design: "Figma & Pinterest",
     },
-    nextProject: "MOQO",
+    nextProject: "moqo",
   },
   {
     id: "MOQO",
@@ -268,27 +268,8 @@ const WorkData = [
       frontend: "HTML5, CSS3, JavaScript, Jquery UI, GSAP, Scroll Trigger, LocoMotive Animation, Canvas, Swiper Bundle",
       design: "Figma & Pinterest",
     },
-    nextProject: "GitHub Legacy",
+    nextProject: "coding-aura",
   },
-  // {
-  //   id: "RUNWEB",
-  //   image: RUNWEB,
-  //   bannerImage: RUNWEBBanner,
-  //   name: "RUNWEB",
-  //   title: "RUNWEB - we build brands",
-  //   slug: "runweb",
-  //   liveLink: "https://runweb.vercel.app/",
-  //   image1: RUNWEB1,
-  //   image2: RUNWEB2,
-  //   image3: RUNWEB3,
-  //   image4: RUNWEB4,
-  //   detailsInfo: "Reimagined the MOQO Company Website! MOQO is Branding agency that develops brands from a well-thought-out brand strategy, whether in terms of corporate branding, product branding or employer branding.",
-  //   techStack: {
-  //     frontend: "HTML5, CSS3, JavaScript, Jquery UI, GSAP, Scroll Trigger, LocoMotive Animation, Canvas, Swiper Bundle",
-  //     design: "Figma & Pinterest",
-  //   },
-  //   nextProject: null,
-  // },
     {
     id: "Coding Aura",
     image: CodingAura,
@@ -327,7 +308,7 @@ const WorkData = [
       api: "GitHub API",
       OtherTools: "html2pdf.JS"
     },
-    nextProject: "Resume Builder",
+    nextProject: "resume-builder",
   },
   {
     id: "Resume Builder",
@@ -346,7 +327,26 @@ const WorkData = [
       frontend: "React.js, Chakra UI, React Router, React Icons, Bootstrap",
       OtherTools: "html2pdf.JS"
     },
-    nextProject: null,
+    nextProject: "devdisplay",
   },
+  // {
+  //   id: "RUNWEB",
+  //   image: RUNWEB,
+  //   bannerImage: RUNWEBBanner,
+  //   name: "RUNWEB",
+  //   title: "RUNWEB - we build brands",
+  //   slug: "runweb",
+  //   liveLink: "https://runweb.vercel.app/",
+  //   image1: RUNWEB1,
+  //   image2: RUNWEB2,
+  //   image3: RUNWEB3,
+  //   image4: RUNWEB4,
+  //   detailsInfo: "Reimagined the MOQO Company Website! MOQO is Branding agency that develops brands from a well-thought-out brand strategy, whether in terms of corporate branding, product branding or employer branding.",
+  //   techStack: {
+  //     frontend: "HTML5, CSS3, JavaScript, Jquery UI, GSAP, Scroll Trigger, LocoMotive Animation, Canvas, Swiper Bundle",
+  //     design: "Figma & Pinterest",
+  //   },
+  //   nextProject: null,
+  // },
 ];
 export default WorkData;
