@@ -167,7 +167,7 @@ const WorkData = [
     name: "Coding Aura",
     title: "",
     slug: "coding-aura",
-    liveLink: "https://nextjs-api-decorators.vercel.app/",
+    liveLink: "https://codingaura.vercel.app/",
     image1: NAD1,
     image2: NAD2,
     image3: NAD3,
