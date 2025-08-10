@@ -113,10 +113,10 @@ const Credentials = () => {
               <div className="credential_about" data-aos="zoom-in">
                 <h2>About Me</h2>
                 <p>
-                I'm a dedicated last year BCA student at Aryabhatta Knowledge University. Fueled by a passion for becoming a Software Developer, I'm actively learning new technologies, computer science fundamentals, and programming languages. I'm eager to leverage my strong programming skills, proven problem-solving abilities, and teamwork experience in a challenging and dynamic environment to tackle real-world problems. But, Mostly, I focus on Web design - Frontend Development because I give more priority to my creativity or interest and building websites that captivate my target audience and get clients.
+                I design, develop, and deploy ✦ I’m a creative Full Stack Web Developer & Designer specializing in crafting captivating websites and apps with AI integration, with a strong focus on user-centric design and innovative & creative development. Most importantly, I'm a reliable designer you can count on for all your design needs. I can elevate brand presence with my design expertise. So far, I’ve built 50+ web apps. Mostly, I focus on building projects that really matter and solve real-world problems because I give more priority to my creativity and interest, building product that captivate my target audience and attract clients. 
                 </p>
                 <p>
-                Specialization in Creative Full Stack Web Development & Designing. Pro in crafting captivating websites & apps. With a focus on user-centric design, creative development, and effective collaboration, I can elevate brand presence with my design expertise. Till Now I have built 50+ web apps. Most importantly, I'm a reliable designer you can rely on for all your design needs. Currently Building DevDisplay - Paradise For Developers!
+                CurrentlyBuilding DevDisplay – The first global platform for developers to fulfill all their tech needs. & Antriview.systems – AI Powered mock interview platform using real-time voice agents to give you brutally realistic interview prep & instant feedback.
                 </p>
               </div>
               <div className="credential_edc_exp credential_experience">
