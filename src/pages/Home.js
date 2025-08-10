@@ -50,23 +50,28 @@ const Home = () => {
                     <div className="marquee">
                       <div>
                         <span>
-                          Your Vision + My Visuals =<b>$$$</b>
+                          {/* Your idea + My Visuals =<b>$$$</b> */}
+                          Your Idea + My Implementation =<b>$$$</b>
                           <img decoding="async" src={starIcon} alt="Star" />
                         </span>
                         <span>
-                          Your Vision + My Visuals =<b>$$$</b>
+                          Your Idea + My Implementation =<b>$$$</b>
                           <img decoding="async" src={starIcon} alt="Star" />
                         </span>
                         <span>
-                          Your Vision + My Visuals =<b>$$$</b>
+                          Your Idea + My Implementation =<b>$$$</b>
                           <img decoding="async" src={starIcon} alt="Star" />
                         </span>
                         <span>
-                          Your Vision + My Visuals =<b>$$$</b>
+                          Your Idea + My Implementation =<b>$$$</b>
                           <img decoding="async" src={starIcon} alt="Star" />
                         </span>
                         <span>
-                          Your Vision + My Visuals =<b>$$$</b>
+                          Your Idea + My Implementation =<b>$$$</b>
+                          <img decoding="async" src={starIcon} alt="Star" />
+                        </span>
+                        <span>
+                          Your Idea + My Implementation =<b>$$$</b>
                           <img decoding="async" src={starIcon} alt="Star" />
                         </span>
                       </div>
