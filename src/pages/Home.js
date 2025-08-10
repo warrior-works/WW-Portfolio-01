@@ -70,10 +70,6 @@ const Home = () => {
                           Your Idea + My Implementation =<b>$$$</b>
                           <img decoding="async" src={starIcon} alt="Star" />
                         </span>
-                        <span>
-                          Your Idea + My Implementation =<b>$$$</b>
-                          <img decoding="async" src={starIcon} alt="Star" />
-                        </span>
                       </div>
                     </div>
                   </div>
