@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Pradip from "../aashuu/profilebw.jpg";
+import aashuu from "../aashuu/profilebw.jpg";
 import textureImg from "../resources/images/background_texture.png";
 import "../styles/Credentials.css";
 import { Link, NavLink } from "react-router-dom";
@@ -22,7 +22,7 @@ const Credentials = () => {
                 <div className="shadow_box">
                   <img src={textureImg} alt="" className="bg_img" />
                   <div className="img_box">
-                    <img src={Pradip} alt="About Me" />
+                    <img src={aashuu} alt="About Me" />
                   </div>
                   <h2>Ashutosh Kumar</h2>
                   <p>@aashuu</p>

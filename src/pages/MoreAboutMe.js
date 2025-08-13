@@ -1,6 +1,6 @@
 import React from 'react'
 import textureImg from '../resources/images/background_texture.png'
-import Pradip from '../aashuu/profilebw.jpg'
+import aashuu from '../aashuu/profilebw.jpg'
 import Star from '../resources/images/star-2.png'
 import StarIcon from '../resources/images/star-icon.png'
 import { Helmet } from 'react-helmet-async'
@@ -29,7 +29,7 @@ const MoreAboutMe = () => {
                         <div className="about_image_box shadow_box" data-aos="zoom-in">
                             <img src={textureImg} alt="BG" className="bg_img" />
                             <div className="image_inner">
-                                <img src={Pradip} alt="About Me" />
+                                <img src={aashuu} alt="About Me" />
                             </div>
                         </div>
                         <div className="about_details" data-aos="zoom-in">

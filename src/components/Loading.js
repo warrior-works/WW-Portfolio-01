@@ -1,11 +1,11 @@
 import React from "react";
-import PradipLoader from "../aashuu/aashuuicon.png";
+import aashuuLoader from "../aashuu/aashuuicon.png";
 import "../styles/Loading.css";
 
 const Loading = () => {
   return (
     <div className="preloader">
-      <img src={PradipLoader} alt="pradipLadva" />
+      <img src={aashuuLoader} alt="AshutoshKumar" />
     </div>
   );
 };

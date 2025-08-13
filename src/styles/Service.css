@@ -268,7 +268,7 @@
 }
 
 @media (max-width: 1090px) {
-  .service_area .info_box .pradip_sign {
+  .service_area .info_box .aashuu_sign {
     display: flex;
     margin: 0 auto;
     width: 100%;
@@ -314,7 +314,7 @@
     justify-content: center;
     margin-bottom: 30px;
   }
-  .service_area .info_box .pradip_sign {
+  .service_area .info_box .aashuu_sign {
     width: auto;
   }
 }
