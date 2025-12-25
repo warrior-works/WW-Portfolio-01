@@ -87,7 +87,7 @@ const Contact = () => {
                   </div>
                   <div className="right">
                     <span>LOCATION</span>
-                    <h4>Mostly On DevDisplay</h4>
+                    <h4>Gurugram, India</h4>
                   </div>
                 </li>
               </ul>
