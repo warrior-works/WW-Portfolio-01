@@ -171,7 +171,7 @@ const Contact = () => {
                 <li>
                   <Link
                     className="shadow_box"
-                    to="https://twitter.com/warrior_aashuu"
+                    to="https://twitter.com/aashuutech"
                     target="_blank"
                   >
                     <svg
