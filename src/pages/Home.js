@@ -3,7 +3,6 @@ import textureImg from "../resources/images/background_texture.png";
 import aashuu from "../aashuu/profilebw.jpg";
 import nextIcon from "../resources/images/Next_icon.svg";
 import starIcon from "../resources/images/star1.svg";
-import DevDisplayF from "../resources/images/DevDisplayF.png";
 import DevDisplayW from "../resources/images/DevDisplayW.png";
 import "../styles/Home.css";
 import Projects from "../components/Projects";
@@ -51,7 +50,7 @@ const Home = () => {
                   <div className="banner shadow_box devdisplay_wrapper">
                     <a href="https://www.devdisplay.org/" target="_blank" rel="noopener noreferrer" className="devdisplay_banner_link">
                       <div className="devdisplay_content">
-                        <img src={DevDisplayF} alt="DevDisplay Founder" className="dev_display_img" />
+                        <span className="founder_text">Founder & Creator</span>
                         
                         <div className="active_button_container">
                             <div className="pulsing_button"></div>

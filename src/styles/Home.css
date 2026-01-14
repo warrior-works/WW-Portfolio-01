@@ -646,20 +646,21 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 10px;
 }
 
 .pulsing_button {
     width: 14px;
     height: 14px;
-    background-color: #00FF57;
+    background-color: #ffffffcc;
     border-radius: 50%;
-    box-shadow: 0 0 0 rgba(0, 255, 87, 0.4);
+    box-shadow: 0 0 0 rgba(252, 252, 252, 0.4);
     animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(0, 255, 87, 0.7);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
   }
   70% {
     box-shadow: 0 0 0 14px rgba(0, 255, 87, 0);
@@ -731,4 +732,25 @@ a:hover {
   .visit_now_container {
     margin-left: 6px;
   }
+}
+
+.founder_text {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500; /* Bold */
+    margin-right: 5px;
+    letter-spacing: -0.5px;
+}
+
+/* Responsive adjustment for Founder text */
+@media (max-width: 768px) {
+    .founder_text {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .founder_text {
+        font-size: 18px;
+    }
 }
