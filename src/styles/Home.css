@@ -573,7 +573,7 @@ a:hover {
 }
 
 .inner_profile_icons a:hover .DevDisplay-icon {
-  filter: brightness(0); /* Turns the icon black */
+  filter: brightness(0);
 }
 
 .custom-text {
@@ -625,11 +625,6 @@ a:hover {
     /* transition: transform 0.3s ease, box-shadow 0.3s ease; Removed animation */
 }
 
-/* Removed hover transform and shadow effects */
-.about_area .banner.devdisplay_wrapper:hover {
-    /* No scale or shadow change */
-}
-
 .dev_display_img {
     height: 38px;
     width: auto;
@@ -651,42 +646,8 @@ a:hover {
 .pulsing_button {
     width: 14px;
     height: 14px;
-    background-color: #ffffffcc; /* Changed to white-ish to match gray theme? User asked for white on hover for icon, but this is the center dot. */
-    /* Wait, the user image shows a gray/white dot. The previous color was bright green #00FF57. 
-       The user shared an image: the dot is gray/white. 
-       Let's check the previous code I read. It had #00FF57. 
-       Wait, I read lines 620-700 and the pulsing button code there (lines 651-655) showed:
-       background-color: #ffffffcc; 
-       box-shadow: 0 0 0 rgba(252, 252, 252, 0.4);
-       
-       Wait, when did that change? I did not change it to white yet.
-       Ah, the read_file output showed: 
-       background-color: #ffffffcc;
-       
-       Let me check my previous output. I wrote #00FF57 in the 'cat' command.
-       Maybe the user edited it or the read_file output I saw earlier was somehow different?
-       The read_file output lines 651-655 clearly show #ffffffcc.
-       
-       Wait, let me look at the context provided by "There have been some changes...".
-       It says "Some edits were made... to src/styles/Home.css".
-       Ah! The user or formatter might have changed it.
-       
-       The user request "iw nat this also like other" and provided an image where the middle dot looks gray/white.
-       Wait, the user attached image shows: "Founder & Creator (gray dot) DevDisplay".
-       But my code had a green pulsing button.
-       
-       If the current file has white, I should stick with it or match the user request.
-       The user didn't explicitly ask to change the dot color in the *text* of the prompt, but asked "why this not like other div".
-       AND "why this icon is not loking like other icon... when we hover... turn into white".
-       
-       Let's assume the current state of Home.css has white.
-       
-       I need to make sure I didn't break the pulsing button while editing lines for devdisplay_wrapper.
-       The replace_string_in_file I just ran targeted lines BEFORE pulsing_button.
-       
-       Let's check pulsing_button again.
-    */
-    background-color: #8c8c8c; /* Grayish like the image attachment */
+    background-color: #ffffffcc;
+    background-color: #8c8c8c;
     border-radius: 50%;
     box-shadow: 0 0 0 rgba(140, 140, 140, 0.4);
     animation: pulse 2s infinite;
@@ -728,7 +689,6 @@ a:hover {
     opacity: 1;
 }
 
-/* Responsive adjustments for DevDisplay Banner */
 @media (max-width: 768px) {
   .about_area .banner.devdisplay_wrapper {
     padding: 10px 15px;
@@ -773,12 +733,11 @@ a:hover {
 .founder_text {
     color: #fff;
     font-size: 28px;
-    font-weight: 500; /* Bold */
+    font-weight: 500;
     margin-right: 5px;
     letter-spacing: -0.5px;
 }
 
-/* Responsive adjustment for Founder text */
 @media (max-width: 768px) {
     .founder_text {
         font-size: 22px;
