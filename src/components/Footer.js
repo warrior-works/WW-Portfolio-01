@@ -23,6 +23,9 @@ const Footer = (props) => {
               <NavLink to="/works">Works</NavLink>
             </li>
             <li className="menu_item">
+              <NavLink to="/blog">Blogs</NavLink>
+            </li>
+            <li className="menu_item">
               <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
