@@ -134,7 +134,7 @@ const Home = () => {
                 <img src={textureImg} alt="bg" className="bg_img" />
                 <div className="clients d-flex align-items-start justify-content-center">
                   <div className="client_item">
-                    <h1>03</h1>
+                    <h1>3+</h1>
                     <p>
                       Years <br />
                       Experience
@@ -148,7 +148,7 @@ const Home = () => {
                     </p>
                   </div>
                   <div className="client_item">
-                    <h1>+90</h1>
+                    <h1>90+</h1>
                     <p>
                       TOTAL <br />
                       PROJECTS
