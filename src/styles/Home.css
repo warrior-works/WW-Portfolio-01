@@ -683,7 +683,7 @@ a:hover {
 }
 
 .visit_now_container .next_icon_img {
-    height: 24px;
+    height: 30px;
     width: auto;
     transition: transform 0.3s ease;
 }
