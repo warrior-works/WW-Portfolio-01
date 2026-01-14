@@ -685,11 +685,13 @@ a:hover {
 .visit_now_container .next_icon_img {
     height: 30px;
     width: auto;
-    transition: transform 0.3s ease;
+    opacity: 0.2;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .devdisplay_wrapper:hover .visit_now_container .next_icon_img {
     transform: translateX(5px);
+    opacity: 1;
 }
 
 /* Responsive adjustments for DevDisplay Banner */
