@@ -82,6 +82,55 @@ const Home = () => {
                 </div>
               </div>
             </div>
+            <div className="col-lg-12">
+              <div className="banner shadow_box">
+                <div className="marquee slow">
+                  <div>
+                    <span>
+                      {/* Your idea + My Visuals =<b>$$$</b> */}
+                      Your Idea + My Implementation =<b>$$$</b>
+                      <img decoding="async" src={starIcon} alt="Star" />
+                    </span>
+                    <span>
+                      Your Idea + My Implementation =<b>$$$</b>
+                      <img decoding="async" src={starIcon} alt="Star" />
+                    </span>
+                    <span>
+                      Your Idea + My Implementation =<b>$$$</b>
+                      <img decoding="async" src={starIcon} alt="Star" />
+                    </span>
+                    <span>
+                      Your Idea + My Implementation =<b>$$$</b>
+                      <img decoding="async" src={starIcon} alt="Star" />
+                    </span>
+                    <span>
+                      Your Idea + My Implementation =<b>$$$</b>
+                      <img decoding="async" src={starIcon} alt="Star" />
+                    </span>
+                    <span>
+                      Your Idea + My Implementation =<b>$$$</b>
+                      <img decoding="async" src={starIcon} alt="Star" />
+                    </span>
+                    <span>
+                      Your Idea + My Implementation =<b>$$$</b>
+                      <img decoding="async" src={starIcon} alt="Star" />
+                    </span>
+                    <span>
+                      Your Idea + My Implementation =<b>$$$</b>
+                      <img decoding="async" src={starIcon} alt="Star" />
+                    </span>
+                    <span>
+                      Your Idea + My Implementation =<b>$$$</b>
+                      <img decoding="async" src={starIcon} alt="Star" />
+                    </span>
+                    <span>
+                      Your Idea + My Implementation =<b>$$$</b>
+                      <img decoding="async" src={starIcon} alt="Star" />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="col-lg-6 mb-30" data-aos="zoom-in">
               <Service />
             </div>

@@ -179,6 +179,12 @@
                     margin: 0 5px;
                 }
             }
+
+            &.slow {
+                div {
+                    animation-duration: 15s;
+                }
+            }
         }
     }
 
