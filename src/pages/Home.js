@@ -3,6 +3,8 @@ import textureImg from "../resources/images/background_texture.png";
 import aashuu from "../aashuu/profilebw.jpg";
 import nextIcon from "../resources/images/Next_icon.svg";
 import starIcon from "../resources/images/star1.svg";
+import DevDisplayF from "../resources/images/DevDisplayF.png";
+import DevDisplayW from "../resources/images/DevDisplayW.png";
 import "../styles/Home.css";
 import Projects from "../components/Projects";
 import { Link } from "react-router-dom";
@@ -46,32 +48,22 @@ const Home = () => {
             <div className="col-lg-6" data-aos="zoom-in">
               <div className="row h-100">
                 <div className="col-lg-12">
-                  <div className="banner shadow_box">
-                    <div className="marquee">
-                      <div>
-                        <span>
-                          {/* Your idea + My Visuals =<b>$$$</b> */}
-                          Your Idea + My Implementation =<b>$$$</b>
-                          <img decoding="async" src={starIcon} alt="Star" />
-                        </span>
-                        <span>
-                          Your Idea + My Implementation =<b>$$$</b>
-                          <img decoding="async" src={starIcon} alt="Star" />
-                        </span>
-                        <span>
-                          Your Idea + My Implementation =<b>$$$</b>
-                          <img decoding="async" src={starIcon} alt="Star" />
-                        </span>
-                        <span>
-                          Your Idea + My Implementation =<b>$$$</b>
-                          <img decoding="async" src={starIcon} alt="Star" />
-                        </span>
-                        <span>
-                          Your Idea + My Implementation =<b>$$$</b>
-                          <img decoding="async" src={starIcon} alt="Star" />
-                        </span>
+                  <div className="banner shadow_box devdisplay_wrapper">
+                    <a href="https://www.devdisplay.org/" target="_blank" rel="noopener noreferrer" className="devdisplay_banner_link">
+                      <div className="devdisplay_content">
+                        <img src={DevDisplayF} alt="DevDisplay Founder" className="dev_display_img" />
+                        
+                        <div className="active_button_container">
+                            <div className="pulsing_button"></div>
+                        </div>
+
+                        <img src={DevDisplayW} alt="DevDisplay Website" className="dev_display_img" />
+                        
+                        <div className="visit_now_container">
+                              <img src={nextIcon} alt="Next" className="next_icon_img" />
+                        </div>
                       </div>
-                    </div>
+                    </a>
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-6 mb-30">

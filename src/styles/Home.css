@@ -601,3 +601,134 @@ a:hover {
   color: #FFFFFF;
   text-align: center;
 }
+.devdisplay_banner_link {
+    text-decoration: none !important;
+    display: block;
+    width: 100%;
+}
+
+.devdisplay_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.about_area .banner.devdisplay_wrapper {
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about_area .banner.devdisplay_wrapper:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+}
+
+.dev_display_img {
+    height: 38px;
+    width: auto;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+.devdisplay_wrapper:hover .dev_display_img {
+    filter: brightness(1.2);
+}
+
+.active_button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pulsing_button {
+    width: 14px;
+    height: 14px;
+    background-color: #00FF57;
+    border-radius: 50%;
+    box-shadow: 0 0 0 rgba(0, 255, 87, 0.4);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 255, 87, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(0, 255, 87, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 255, 87, 0);
+  }
+}
+
+.visit_now_container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 15px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.visit_now_container .next_icon_img {
+    height: 24px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.devdisplay_wrapper:hover .visit_now_container .next_icon_img {
+    transform: translateX(5px);
+}
+
+/* Responsive adjustments for DevDisplay Banner */
+@media (max-width: 768px) {
+  .about_area .banner.devdisplay_wrapper {
+    padding: 10px 15px;
+  }
+  .dev_display_img {
+    height: 30px !important;
+  }
+  .visit_now_container .next_icon_img {
+    height: 20px !important;
+  }
+  .pulsing_button {
+    width: 10px;
+    height: 10px;
+  }
+  .devdisplay_content {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about_area .banner.devdisplay_wrapper {
+    padding: 8px 10px;
+  }
+  .dev_display_img {
+    height: 22px !important;
+  }
+  .visit_now_container .next_icon_img {
+    height: 16px !important;
+  }
+  .pulsing_button {
+    width: 8px;
+    height: 8px;
+  }
+  .devdisplay_content {
+    gap: 6px;
+  }
+  .visit_now_container {
+    margin-left: 6px;
+  }
+}
