@@ -33,8 +33,8 @@
   },
   "scripts": {
     "start": "cross-env PORT=3002 NODE_OPTIONS='--no-webstorage' react-scripts start",
-    "build": "cross-env NODE_OPTIONS='--no-webstorage' react-scripts build",
-    "test": "cross-env NODE_OPTIONS='--no-webstorage' react-scripts test",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
