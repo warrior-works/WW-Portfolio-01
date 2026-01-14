@@ -33,9 +33,10 @@ const Home = () => {
                   <img src={aashuu} alt="" />
                 </div>
                 <div className="infos">
-                  <h4>Enterpreneur ● Engineer ● Designer</h4>
-                  <h1>Ashutosh Kumar</h1>
-                  <p>Turning pixels into production-ready products for the past 4 years with a mind full of fucking obsessed creativity.</p>
+                  <h4>Enterpreneur. Engineer. Designer.</h4>
+                  <h1>𝘈𝘴𝘩𝘶𝘵𝘰𝘴𝘩 𝘒𝘶𝘮𝘢𝘳</h1>
+                  <p>Turning pixels into production-grade SaaS products for the past 4 years with relentless creative obsession.</p>
+                  {/* <p>Built 50+ production grade SaaS products over the past 3 years across Web2 • Web3 • AI • Open Source</p> */}
                   {/* <p>SDE I @LPS • GSoC'25 • Building DevDisplay - A tech ecosystem running on 3 business models: Platform, Labs, and Community.</p> */}
                   {/* <p>SDE @LPS • Designing & developing production ready web apps with a mind full of fucking obsessed creativity • Currently in GSoC'25 • Open to contract based freelance work only.</p> */}
                   <Link href="#" className="about_btn">
