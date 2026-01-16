@@ -32,6 +32,10 @@ const Home = () => {
         <meta name="twitter:title" content="Ashutosh Kumar Portfolio" />
         <meta name="twitter:description" content="Portfolio of Ashutosh Kumar, a Creative Full-Stack Web App Developer & UI Designer. With 50+ web apps built, he is currently developing DevDisplay - a paradise for developers!" />
         <meta name="twitter:image" content="https://www.aashuu.tech/portfoliothumbnail.png" />
+        <meta name="twitter:site" content="@warrioraashuu" />
+        <meta name="twitter:creator" content="@warrioraashuu" />
+        <meta name="twitter:url" content="https://www.aashuu.tech/" />
+        <meta name="twitter:domain" content="aashuu.tech" />
       </Helmet>
       <Navbar/>
       <section className="about_area">
