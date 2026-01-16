@@ -26,7 +26,6 @@ const Contact = () => {
     mode: "onTouched",
   });
   const [isSuccess, setIsSuccess] = useState(false);
-  const [message, setMessage] = useState("");
 
   const apiKey = "566ee174-5b58-4e8a-877f-623ef2de57cc";
   const { submit: onSubmit } = useWeb3Forms({
@@ -37,13 +36,11 @@ const Contact = () => {
     },
     onSuccess: (msg, data) => {
       setIsSuccess(true);
-      setMessage(msg);
       reset();
       toast.success("Message sent successfully!");
     },
     onError: (msg, data) => {
       setIsSuccess(false);
-      setMessage(msg);
       toast.error("Failed to send the message. Please try again.");
     },
   });

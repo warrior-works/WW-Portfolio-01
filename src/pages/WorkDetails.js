@@ -6,7 +6,7 @@ import textureImg from "../resources/images/background_texture.png";
 import Footer from "../components/Footer";
 import "../styles/WorkDetails.css";
 import { Helmet } from "react-helmet-async";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import WorkData from "./data/WorkData";
 import Navbar from "../components/Navbar";
 
