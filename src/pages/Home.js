@@ -20,6 +20,18 @@ const Home = () => {
     <>
       <Helmet>
         <title>Ashutosh Kumar Portfolio</title>
+        <meta property="og:title" content="Ashutosh Kumar Portfolio" />
+        <meta property="og:description" content="Portfolio of Ashutosh Kumar, a Creative Full-Stack Web App Developer & UI Designer. With 50+ web apps built, he is currently developing DevDisplay - a paradise for developers!" />
+        <meta property="og:url" content="https://www.aashuu.tech/" />
+        <meta property="og:image" content="https://www.aashuu.tech/portfoliothumbnail.png" />
+        <meta property="og:image:width" content="1928" />
+        <meta property="og:image:height" content="1080" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Ashutosh Kumar Portfolio" />
+        <meta name="twitter:description" content="Portfolio of Ashutosh Kumar, a Creative Full-Stack Web App Developer & UI Designer. With 50+ web apps built, he is currently developing DevDisplay - a paradise for developers!" />
+        <meta name="twitter:image" content="https://www.aashuu.tech/portfoliothumbnail.png" />
       </Helmet>
       <Navbar/>
       <section className="about_area">
