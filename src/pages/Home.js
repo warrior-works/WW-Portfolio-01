@@ -49,7 +49,7 @@ const Home = () => {
                   <img src={aashuu} alt="" />
                 </div>
                 <div className="infos">
-                  <h4>Enterpreneur. Engineer. Designer.</h4>
+                  <h4>Entrepreneur. Engineer. Designer.</h4>
                   <h1>𝘈𝘴𝘩𝘶𝘵𝘰𝘴𝘩 𝘒𝘶𝘮𝘢𝘳</h1>
                   <p>Turning pixels into production-grade SaaS products for the past 4 years with relentless creative obsession.</p>
                   {/* <p>✦ Built 50+ production grade SaaS products over the past 3 years across Web2 • Web3 • AI • Open Source</p> */}
