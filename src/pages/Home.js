@@ -18,7 +18,7 @@ import Navbar from "../components/Navbar";
 const Home = () => {
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <title>Ashutosh Kumar Portfolio</title>
         <meta property="og:title" content="Ashutosh Kumar Portfolio" />
         <meta property="og:description" content="Portfolio of Ashutosh Kumar, a Creative Full-Stack Web App Developer & UI Designer. With 50+ web apps built, he is currently developing DevDisplay - a paradise for developers!" />
@@ -31,6 +31,39 @@ const Home = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Ashutosh Kumar Portfolio" />
         <meta name="twitter:description" content="Portfolio of Ashutosh Kumar, a Creative Full-Stack Web App Developer & UI Designer. With 50+ web apps built, he is currently developing DevDisplay - a paradise for developers!" />
+        <meta name="twitter:image" content="https://www.aashuu.tech/portfoliothumbnail.png" />
+        <meta name="twitter:site" content="@warrioraashuu" />
+        <meta name="twitter:creator" content="@warrioraashuu" />
+        <meta name="twitter:url" content="https://www.aashuu.tech/" />
+        <meta name="twitter:domain" content="aashuu.tech" />
+      </Helmet>
+      <Navbar/>
+      <section className="about_area">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 mb-30" data-aos="zoom-in">
+              <div className="about_me_box shadow_box">
+                <Link to="/about" className="overlay_link"></Link>
+                <img src={textureImg} alt="" className="bg_img" />
+                <div className="img_box">
+                  <img src={aashuu} alt="" />
+                </div>
+                <div className="infos"> */}
+                      <Helmet>
+        <title>The Human Version of JavaScript | Ashutosh Kumar</title>
+        <meta name="description" content="The human version of JavaScript. Ashutosh Kumar is a Creative Full-Stack Web App Developer & UI Designer. Founder of DevDisplay." />
+        <meta name="keywords" content="The human version of JavaScript, Ashutosh Kumar, JavaScript Developer, Full Stack Developer, React Developer" />
+        <meta property="og:title" content="The Human Version of JavaScript | Ashutosh Kumar" />
+        <meta property="og:description" content="The human version of JavaScript. Portfolio of Ashutosh Kumar, a Creative Full-Stack Web App Developer & UI Designer. With 50+ web apps built, he is currently developing DevDisplay." />
+        <meta property="og:url" content="https://www.aashuu.tech/" />
+        <meta property="og:image" content="https://www.aashuu.tech/portfoliothumbnail.png" />
+        <meta property="og:image:width" content="1928" />
+        <meta property="og:image:height" content="1080" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="The Human Version of JavaScript | Ashutosh Kumar" />
+        <meta name="twitter:description" content="The human version of JavaScript. Portfolio of Ashutosh Kumar, a Creative Full-Stack Web App Developer & UI Designer." />
         <meta name="twitter:image" content="https://www.aashuu.tech/portfoliothumbnail.png" />
         <meta name="twitter:site" content="@warrioraashuu" />
         <meta name="twitter:creator" content="@warrioraashuu" />
