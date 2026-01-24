@@ -17,10 +17,21 @@ const MoreAboutMe = () => {
 
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title>
                     About | {process.env.REACT_APP_APP_NAME}
                 </title>
+            </Helmet>
+            <Navbar />
+            <section className="about_area">
+                <div className="container"> */}
+            <Helmet>
+                <title>
+                    The Human Version of JavaScript | About Ashutosh
+                </title>
+                <meta name="description" content="Learn more about Ashutosh Kumar, The Human Version of JavaScript. Full-Stack Developer, UI Designer, and Founder of DevDisplay." />
+                <meta property="og:title" content="The Human Version of JavaScript | About Ashutosh" />
+                <meta property="og:description" content="Learn more about Ashutosh Kumar, The Human Version of JavaScript. Full-Stack Developer, UI Designer, and Founder of DevDisplay." />
             </Helmet>
             <Navbar />
             <section className="about_area">
