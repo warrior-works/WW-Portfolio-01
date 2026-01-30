@@ -50,7 +50,7 @@ const Home = () => {
                 </div>
                 <div className="infos"> */}
                       <Helmet>
-        <title>The Human Version of JavaScript | Ashutosh Kumar</title>
+        <title>Polymath | Ashutosh Kumar</title>
         <meta name="description" content="The human version of JavaScript. Ashutosh Kumar is a Creative Full-Stack Web App Developer & UI Designer. Founder of DevDisplay." />
         <meta name="keywords" content="The human version of JavaScript, Ashutosh Kumar, JavaScript Developer, Full Stack Developer, React Developer" />
         <meta property="og:title" content="The Human Version of JavaScript | Ashutosh Kumar" />
