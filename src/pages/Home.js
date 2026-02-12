@@ -98,7 +98,7 @@ const Home = () => {
               <div className="row h-100">
                 <div className="col-lg-12">
                   <div className="banner shadow_box devdisplay_wrapper">
-                    <a href="https://www.devdisplay.org/" target="_blank" rel="noopener noreferrer" className="devdisplay_banner_link">
+                    <a href="https://www.devdisplay.org/profile/codeaashu" target="_blank" rel="noopener noreferrer" className="devdisplay_banner_link">
                       <div className="devdisplay_content">
                         <span className="founder_text">Founder & Creator</span>
                         
