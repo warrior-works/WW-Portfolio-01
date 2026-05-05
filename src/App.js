@@ -4,6 +4,7 @@ import React, { Suspense, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./App.css";
+import Cursor from "./components/Cursor";
 import ScrollToTop from "./components/ScrollToTop";
 import Loading from "./components/Loading";
 import { Analytics } from "@vercel/analytics/react";
@@ -16,6 +17,7 @@ const App = () => {
   }, []);
   return (
     <>
+      <Cursor />
       <ScrollToTop />
       <SnackbarProvider maxSnack={3}>
         <Suspense fallback={<Loading />}>
