@@ -27,11 +27,11 @@ const MoreAboutMe = () => {
                 <div className="container"> */}
             <Helmet>
                 <title>
-                    The Human Version of JavaScript | About Ashutosh
+                    About aashuu
                 </title>
-                <meta name="description" content="Learn more about Ashutosh Kumar, The Human Version of JavaScript. Full-Stack Developer, UI Designer, and Founder of DevDisplay." />
-                <meta property="og:title" content="The Human Version of JavaScript | About Ashutosh" />
-                <meta property="og:description" content="Learn more about Ashutosh Kumar, The Human Version of JavaScript. Full-Stack Developer, UI Designer, and Founder of DevDisplay." />
+                <meta name="description" content="Learn more about aashuu, Full-Stack Developer, UI Designer, and Founder of DevDisplay." />
+                <meta property="og:title" content="aashuu | About" />
+                <meta property="og:description" content="Learn more about aashuu, Full-Stack Developer, UI Designer, and Founder of DevDisplay." />
             </Helmet>
             <Navbar />
             <section className="about_area">

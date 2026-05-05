@@ -50,11 +50,11 @@ const Home = () => {
                 </div>
                 <div className="infos"> */}
                       <Helmet>
-        <title>Polymath | Ashutosh Kumar</title>
-        <meta name="description" content="The human version of JavaScript. Ashutosh Kumar is a Creative Full-Stack Web App Developer & UI Designer. Founder of DevDisplay." />
-        <meta name="keywords" content="The human version of JavaScript, Ashutosh Kumar, JavaScript Developer, Full Stack Developer, React Developer" />
-        <meta property="og:title" content="The Human Version of JavaScript | Ashutosh Kumar" />
-        <meta property="og:description" content="The human version of JavaScript. Portfolio of Ashutosh Kumar, a Creative Full-Stack Web App Developer & UI Designer. With 50+ web apps built, he is currently developing DevDisplay." />
+        <title>aashuu portfolio</title>
+        <meta name="description" content="aashuu is a Creative Full-Stack Web App Developer & UI Designer. Founder of DevDisplay." />
+        <meta name="keywords" content="aashuu, JavaScript Developer, Full Stack Developer, React Developer" />
+        <meta property="og:title" content="aashuu" />
+        <meta property="og:description" content="Portfolio of aashuu, a Creative Full-Stack Web App Developer & UI Designer. With 50+ web apps built, he is currently developing DevDisplay." />
         <meta property="og:url" content="https://www.aashuu.tech/" />
         <meta property="og:image" content="https://www.aashuu.tech/portfoliothumbnail.png" />
         <meta property="og:image:width" content="1928" />
@@ -62,8 +62,8 @@ const Home = () => {
         <meta property="og:image:type" content="image/png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="The Human Version of JavaScript | Ashutosh Kumar" />
-        <meta name="twitter:description" content="The human version of JavaScript. Portfolio of Ashutosh Kumar, a Creative Full-Stack Web App Developer & UI Designer." />
+        <meta name="twitter:title" content="aashuu" />
+        <meta name="twitter:description" content="Portfolio of aashuu, a Creative Full-Stack Web App Developer & UI Designer." />
         <meta name="twitter:image" content="https://www.aashuu.tech/portfoliothumbnail.png" />
         <meta name="twitter:site" content="@warrioraashuu" />
         <meta name="twitter:creator" content="@warrioraashuu" />

@@ -57,10 +57,10 @@ const Contact = () => {
       <section className="contact_area">
         <div className="container"> */}
             <Helmet>
-        <title>Contact The Human Version of JavaScript | Ashutosh Kumar</title>
-        <meta name="description" content="Contact Ashutosh Kumar, The Human Version of JavaScript. Let's work together on your next Web2, Web3, or AI project." />
-        <meta property="og:title" content="Contact The Human Version of JavaScript | Ashutosh Kumar" />
-        <meta property="og:description" content="Contact Ashutosh Kumar, The Human Version of JavaScript. Let's work together on your next Web2, Web3, or AI project." />
+        <title>Contact aashuu</title>
+        <meta name="description" content="Contact aashuu, Let's work together on your next Web2, Web3, or AI project." />
+        <meta property="og:title" content="Contact aashuu" />
+        <meta property="og:description" content="Contact aashuu, Let's work together on your next Web2, Web3, or AI project." />
     </Helmet>
     <ToastContainer />
     <Navbar />
