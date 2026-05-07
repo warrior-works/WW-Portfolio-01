@@ -180,7 +180,7 @@ Jo khud se mila hoon main, wo nayaab sa nahi tha.
 Chalte rahe hum talaash mein kisi manzil ki,
 Jo mila apne andar, wo kharaab sa nahi tha.
 
-Ab jo ruk ke dekha to samjha hoon main 'aashuu',
+Ab jo ruk ke dekha to samjha hoon main,
 Ghar to wahi tha, jo mere saath chala, wo pata sa nahi tha!!
 \`\`\`
     `,

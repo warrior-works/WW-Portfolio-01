@@ -1,3 +1,10 @@
+import AVSAR from "../../resources/images/work-data/AVSAR/AVSARTHUMBNAIL.png";
+import AVSARBanner from "../../resources/images/work-data/AVSAR/AVSARBANNER.png";
+import AVSAR1 from "../../resources/images/work-data/AVSAR/AVSAR1.png";
+import AVSAR2 from "../../resources/images/work-data/AVSAR/AVSAR2.png";
+import AVSAR3 from "../../resources/images/work-data/AVSAR/AVSAR3.png";
+import AVSAR4 from "../../resources/images/work-data/AVSAR/AVSAR4.png";
+
 import DevDisplay from "../../resources/images/work-data/DevDisplay/DevDisplayTHUMBNAIL.png";
 import DevDisplayBanner from "../../resources/images/work-data/DevDisplay/DevDisplayBANNER.png";
 import DevDisplay1 from "../../resources/images/work-data/DevDisplay/DevDisplay1.png";
@@ -90,6 +97,29 @@ import RB4 from "../../resources/images/work-data/RB/RB4.png";
 // import RUNWEB4 from "../../resources/images/work-data/RUNWEB/RUNWEB4.png";
 
 const WorkData = [
+    {
+    id: "AVSAR",
+    image: AVSAR,
+    bannerImage: AVSARBanner,
+    name: "AVSAR",
+    title: "The Intelligence System for Modern Events",
+    slug: "avsar",
+    liveLink: "https://avsar.aashuu.tech/",
+    image1: AVSAR1,
+    image2: AVSAR2,
+    image3: AVSAR3,
+    image4: AVSAR4,
+    detailsInfo: "Avsar is an AI system for effortless networking that helps people organize and attend events to create and collect opportunities, and build meaningful connections with the right people to share ideas through an intelligent and seamless experience.",
+    techStack: {
+      frontend: "Next.js, React.js, TailwindCSS, shadcn/ui + Radix UI, TypeScript",
+      backend: "Node.js, Convex Backend",
+      database: "PostgreSQL",
+      api: "REST APIs, OpenAI API, Google API",
+      design: "Figma, Adobe XD, Illustrator, Blender",
+      OtherTools: "Shell Scripting, Markdown, Stripe, Razorpay, Clerk, GitHub Actions, Vercel, AWS, DevOps, Docker, Apache HTTP Server, AWS EC2 + Load Balancer",
+    },
+    nextProject: "devdisplay",
+  },
   {
     id: "DevDisplay",
     image: DevDisplay,
