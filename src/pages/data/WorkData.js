@@ -5,6 +5,13 @@ import AVSAR2 from "../../resources/images/work-data/AVSAR/AVSAR2.png";
 import AVSAR3 from "../../resources/images/work-data/AVSAR/AVSAR3.png";
 import AVSAR4 from "../../resources/images/work-data/AVSAR/AVSAR4.png";
 
+import RepoXray from "../../resources/images/work-data/RepoXray/RepoXrayTHUMBNAIL.png";
+import RepoXrayBanner from "../../resources/images/work-data/RepoXray/RepoXrayBANNER.png";
+import RepoXray1 from "../../resources/images/work-data/RepoXray/RepoXray1.png";
+import RepoXray2 from "../../resources/images/work-data/RepoXray/RepoXray2.png";
+import RepoXray3 from "../../resources/images/work-data/RepoXray/RepoXray3.png";
+import RepoXray4 from "../../resources/images/work-data/RepoXray/RepoXray4.png";
+
 import DevDisplay from "../../resources/images/work-data/DevDisplay/DevDisplayTHUMBNAIL.png";
 import DevDisplayBanner from "../../resources/images/work-data/DevDisplay/DevDisplayBANNER.png";
 import DevDisplay1 from "../../resources/images/work-data/DevDisplay/DevDisplay1.png";
@@ -117,6 +124,29 @@ const WorkData = [
       api: "REST APIs, OpenAI API, Google API",
       design: "Figma, Adobe XD, Illustrator, Blender",
       OtherTools: "Shell Scripting, Markdown, Stripe, Razorpay, Clerk, GitHub Actions, Vercel, AWS, DevOps, Docker, Apache HTTP Server, AWS EC2 + Load Balancer",
+    },
+    nextProject: "repoxray",
+  },
+    {
+    id: "RepoXray",
+    image: RepoXray,
+    bannerImage: RepoXrayBanner,
+    name: "RepoXray",
+    title: "X-Ray Any Repo, in Seconds.",
+    slug: "repoxray",
+    liveLink: "https://repoxray.devdisplay.org/",
+    image1: RepoXray1,
+    image2: RepoXray2,
+    image3: RepoXray3,
+    image4: RepoXray4,
+    detailsInfo: "AI-powered engine that analyzes codebases in seconds, revealing code quality, Architecture, Graphs, Data Flow, CodeFlow, Flowcharts, System Maps, and intelligent recommendations + actions (Issues, Patterns, Security, Automations, Refactors, Contributions). It's like having a superpower to understand and improve any codebase instantly. It matters because, developers spend 80% of their time reading code, not writing it. Yet most tools are built for writing. RepoXray flips that. So, you see the system, not just the syntax.",
+    techStack: {
+      frontend: "Next.js, React.js, TailwindCSS, shadcn/ui + Radix UI, TypeScript, Framer Motion, Mermaid",
+      backend: "Node.js",
+      database: "PostgreSQL",
+      api: "REST APIs, OpenAI API, Google API, OpenRouter API",
+      design: "Figma, Adobe XD, Illustrator, Blender",
+      OtherTools: "Shell Scripting, Markdown, Polar, GitHub Auth, GitHub Actions, Vercel, AWS, DevOps, Docker, Apache HTTP Server, AWS EC2 + Load Balancer",
     },
     nextProject: "devdisplay",
   },
