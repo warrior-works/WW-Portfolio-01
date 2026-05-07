@@ -210,6 +210,17 @@ const Home = () => {
             <div className="col-lg-6 mb-30" data-aos="zoom-in">
               <WorkTogether />
             </div>
+            <div className="col-lg-12">
+              <div className="banner shadow_box">
+                <div>
+                  <div>
+                  <h3>Philosophy</h3>
+                  <p className="philosophy_quote">
+                    Life is a battlefield. You can't find peace without battle, because the path to peace is the last door to war.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

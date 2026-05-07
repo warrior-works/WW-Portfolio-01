@@ -749,3 +749,10 @@ a:hover {
         font-size: 18px;
     }
 }
+
+.philosophy_quote {
+    opacity: 0.6 !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 24px !important;
+    line-height: 1.6;
+  }
